@@ -4,7 +4,6 @@ by Ionut-Catalin Craciun, Rishil Patel, Jiaming Huang, Yiming Zhou, Hamza Marrak
 ```python
   def save_elephants():
     print("Microsoft Project 15 x Imperial College London")
-  end
 ```
 
 > Saving elephants
