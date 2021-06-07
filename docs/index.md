@@ -9,4 +9,4 @@ by Ionut-Catalin Craciun, Rishil Patel, Jiaming Huang, Yiming Zhou, Hamza Marrak
 
 > Saving elephants
 
-[__PageA__](test.md)
+[__Template Page__](test.md)
