@@ -1,6 +1,8 @@
 [__Back to home__](index.md)
 
-## Template Page
+# Template Page
+
+## Title
 
 This is a template page to include things.
 
