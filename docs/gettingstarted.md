@@ -1,12 +1,14 @@
-## Getting Started
+[__Back to home__](index.md)
 
-# Anaconda
+# Getting Started
+
+## Anaconda
 - Firstly download xyz
 
-# Python Libraries
+## Python Libraries
 - pip install
 
-# CUDA, cudnnn installation
+## CUDA, cudnnn installation
 - Links to installations
 
 - How to set up system filepath etc
