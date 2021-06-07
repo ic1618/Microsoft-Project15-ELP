@@ -6,3 +6,5 @@ by Ionut-Catalin Craciun, Rishil Patel, Jiaming Huang, Yiming Zhou, Hamza Marrak
     puts 'bar'
   end
 ```
+
+> Saving elephants
