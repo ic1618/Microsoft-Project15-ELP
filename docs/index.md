@@ -1,5 +1,4 @@
-## Elephant Listening Project Documentation
-> Ionut-Catalin Craciun, Rishil Patel, Jiaming Huang, Yiming Zhou, Hamza Marrakchi
+## Project 15: Elephant Listening Project - Gunshot Detection Documentation 
 
 ```python
   def save_elephants():
