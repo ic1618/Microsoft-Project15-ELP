@@ -49,6 +49,18 @@ We now need to install all the packages needed to make sure the system works as 
 
 We now need to install all the packages needed to make sure the system works as intended, this means installing the correct versions of packages used when developing the system. Luckily, this is a very simple process of commands. Please ensure you are in your virtual environment by checking for (TF2env), if you see (base) then please refer to the last code block of ["For Custom Vision model"](#For-Custom-Vision-model) to activate the environment.
 
+To install the packages needed, run the following commands:
+```
+pip install pydub
+pip install tensorflow
+pip install librosa
+pip install pandas 
+pip install matplotlib
+pip install Pillow
+pip install opencv-python
+pip install ffmpeg
+pip install ffprobe
+```
 ## CUDA, cudnnn installation
 - Links to installations
 
