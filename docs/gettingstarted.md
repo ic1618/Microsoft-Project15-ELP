@@ -43,7 +43,7 @@ You are now in the virtual environment in which to install the necessary python 
 
 ### Python Dependency installation for Yolov4 or Faster-RCNN
 
-We now need to install all the packages needed to make sure the system works as intended, this means installing the correct versions of packages used when developing the system. Luckily, this is a very simple process of commands. Please ensure you are in your virtual environment by checking for (gunshotenv), if you see (base) then please refer to the last code block of ["Creating an Anaconda virtual environment"](#Creating-an-Anaconda-virtual-environment) to activate the environment.
+We now need to install all the packages needed to make sure the system works as intended, this means installing the correct versions of packages used when developing the system. Luckily, this is a very simple process of commands. Please ensure you are in your virtual environment by checking for (TF1env), if you see (base) then please refer to the last code block of ["For Yolov4 or Faster-RCNN model"](#For-Yolov4-or-Faster-RCNN-model) to activate the environment.
 
 ## CUDA, cudnnn installation
 - Links to installations
