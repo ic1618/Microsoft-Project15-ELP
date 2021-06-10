@@ -21,19 +21,22 @@ In the Anaconda prompt terminal, execute the following command to create a virtu
 ```
 conda create -n TF1env python=3.7
 ```
+and follow the instructions, you will be prompted to enter 'y' in order to proceed with the creation. Next you will need to activate your virtual environment, to do this simply enter
+```
+conda activate TF1env
+```
+and you will see (base) change to (TF1env). 
 #### For Custom Vision model
 ```
 conda create -n TF2env python=3.7
 ```
 and follow the instructions, you will be prompted to enter 'y' in order to proceed with the creation. Next you will need to activate your virtual environment, to do this simply enter
 ```
-conda activate gunshotenv
+conda activate TF2env
 ```
-and you will see (base) change to (gunshotenv). 
+and you will see (base) change to (TF2env). 
 
-<img src="assets/activate.png" alt="Activate"/>
-
-You are now in the virtual environment in which to install our python libraries.
+You are now in the virtual environment in which to install the necessary python libraries.
 
 
 ### Python Dependency installation
