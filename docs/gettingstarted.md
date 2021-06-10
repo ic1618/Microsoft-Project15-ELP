@@ -8,7 +8,6 @@ Firstly install Anaconda by following the guide [here](https://docs.anaconda.com
 
 ### Creating an Anaconda virtual environment
 Launch the Anaconda Prompt once you have Anaconda installed.
-![Anaconda Promt](assets/startmenu.png)
 
 <img src="assets/startmenu.png" alt="Start Menu" width="400"/>
 
