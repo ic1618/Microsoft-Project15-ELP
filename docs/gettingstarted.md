@@ -26,6 +26,8 @@ and follow the instructions, you will be prompted to enter 'y' in order to proce
 conda activate TF1env
 ```
 and you will see (base) change to (TF1env). 
+
+You are now in the virtual environment in which to [install the necessary python libraries](#Python-Dependency-installation-for-Yolov4-or-Faster-RCNN).
 #### For Custom Vision model
 ```
 conda create -n TF2env python=3.7
@@ -39,7 +41,7 @@ and you will see (base) change to (TF2env).
 You are now in the virtual environment in which to install the necessary python libraries.
 
 
-### Python Dependency installation
+### Python Dependency installation for Yolov4 or Faster-RCNN
 
 We now need to install all the packages needed to make sure the system works as intended, this means installing the correct versions of packages used when developing the system. Luckily, this is a very simple process of commands. Please ensure you are in your virtual environment by checking for (gunshotenv), if you see (base) then please refer to the last code block of ["Creating an Anaconda virtual environment"](#Creating-an-Anaconda-virtual-environment) to activate the environment.
 
