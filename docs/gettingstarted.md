@@ -27,7 +27,7 @@ conda activate TF1env
 ```
 and you will see (base) change to (TF1env). 
 
-You are now in the virtual environment in which to [install the necessary python libraries](#Python-Dependency-installation-for-Yolov4-or-Faster-RCNN).
+You are now in the virtual environment in which to [install the necessary python libraries for Yolov4 or Faster-RCNN](#Python-Dependency-installation-for-Yolov4-or-Faster-RCNN).
 #### For Custom Vision model
 ```
 conda create -n TF2env python=3.7
@@ -38,7 +38,7 @@ conda activate TF2env
 ```
 and you will see (base) change to (TF2env). 
 
-You are now in the virtual environment in which to install the necessary python libraries.
+You are now in the virtual environment in which to [install the necessary python libraries for Custom Vision](#Python-Dependency-installation-for-Yolov4-or-Faster-RCNN).
 
 
 ### Python Dependency installation for Yolov4 or Faster-RCNN
