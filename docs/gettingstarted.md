@@ -3,7 +3,10 @@
 # Getting Started
 
 ## Anaconda
-- Firstly download xyz
+
+Firstly install Anaconda by following the guide [here](https://docs.anaconda.com/anaconda/install/)
+
+### Creating an Anaconda virtual environment
 
 ## Python Libraries
 - pip install
