@@ -16,9 +16,14 @@ Launch the Anaconda Prompt once you have Anaconda installed.
   <img src="assets/prompt.png" alt="Prompt" width="400"/>
 </p>
 
-In the Anaconda prompt terminal, execute the following command to create a virtual environment 
+In the Anaconda prompt terminal, execute the following command to create a virtual environment, depending on which models you want to run. You only need to do this process once!
+#### For Yolov4 or Faster-RCNN model
 ```
-conda create -n gunshotenv python=3.7
+conda create -n TF1env python=3.7
+```
+#### For Custom Vision model
+```
+conda create -n TF2env python=3.7
 ```
 and follow the instructions, you will be prompted to enter 'y' in order to proceed with the creation. Next you will need to activate your virtual environment, to do this simply enter
 ```
