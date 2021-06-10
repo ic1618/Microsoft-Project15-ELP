@@ -24,7 +24,10 @@ and follow the instructions, you will be prompted to enter 'y' in order to proce
 ```
 conda activate gunshotenv
 ```
-and you will see (base) change to (gunshotenv). You are now in the virtual environment in which to install our python libraries.
+and you will see (base) change to (gunshotenv). 
+[Activation](assets/activate.png)
+
+You are now in the virtual environment in which to install our python libraries.
 
 
 ### Python Dependency installation
