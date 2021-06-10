@@ -27,8 +27,9 @@ conda activate gunshotenv
 and you will see (base) change to (gunshotenv). You are now in the virtual environment in which to install our python libraries.
 
 
-## Python Libraries
-- pip install
+### Python Dependency installation
+
+We now need to install all the packages needed to make sure the system works as intended, this means installing the correct versions of packages used when developing the system. Luckily, this is a very simple process of commands. Please ensure you are in your virtual environment by checking for (gunshotenv), if you see (base) then please refer to the last line of the "Creating an Anaconda virtual environment" to activate the environment.
 
 ## CUDA, cudnnn installation
 - Links to installations
