@@ -48,7 +48,7 @@ We now need to install all the packages needed to make sure the system works as 
 To install the packages needed, run the following commands:
 ```
 pip install pydub
-pip install tensorflow-gpu==1.13.1 (if you are running on gpu, if not then pip install tensorflow==1.13.1)
+pip install tensorflow-gpu==1.13.1 (if you are NOT running on gpu then pip install tensorflow==1.13.1)
 pip install keras==2.0.8
 pip install librosa
 pip install pandas 
