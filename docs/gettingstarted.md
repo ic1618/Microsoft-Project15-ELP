@@ -20,7 +20,6 @@ In the Anaconda prompt terminal, execute the following command to create a virtu
 
 ```
 conda create -n gunshotenv python=3.7
-
 ```
 
 ## Python Libraries
