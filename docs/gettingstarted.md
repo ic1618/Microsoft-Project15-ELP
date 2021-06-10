@@ -8,7 +8,7 @@ Firstly install Anaconda by following the guide [here](https://docs.anaconda.com
 
 ### Creating an Anaconda virtual environment
 Launch the Anaconda Prompt once you have Anaconda installed.
-![Anaconda Promt](/assets/startmenu.png)
+![Anaconda Promt](assets/startmenu.png)
 
 ## Python Libraries
 - pip install
