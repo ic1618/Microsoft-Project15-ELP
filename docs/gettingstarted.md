@@ -18,6 +18,10 @@ Launch the Anaconda Prompt once you have Anaconda installed.
 
 In the Anaconda prompt terminal, execute the following command to create a virtual environment 
 
+```
+conda create -n gunshotenv python=3.7
+
+```
 
 ## Python Libraries
 - pip install
