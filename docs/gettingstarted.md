@@ -18,9 +18,6 @@ Launch the Anaconda Prompt once you have Anaconda installed.
 
 In the Anaconda prompt terminal, execute the following command to create a virtual environment 
 
-```bat
-conda env --name 
-```
 
 ## Python Libraries
 - pip install
