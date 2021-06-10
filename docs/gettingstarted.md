@@ -12,7 +12,6 @@ Launch the Anaconda Prompt once you have Anaconda installed.
   <img src="assets/startmenu.png" alt="Start Menu" width="400"/>
   <img src="assets/startmenu.png" alt="Start Menu" width="400"/>
 </p>
-<img src="assets/startmenu.png" alt="Start Menu" width="400"/>
 
 ## Python Libraries
 - pip install
