@@ -75,5 +75,9 @@ pip install opencv-python
 pip install ffmpeg
 pip install ffprobe
 ```
-## CUDA, cudnnn installation for Yolov4 and Faster-RCNN (Ignore if not using GPU)
-- Links to installations
+## CUDA, cuDNN installation for Yolov4 and Faster-RCNN (Ignore if not using GPU)
+To run these models on GPU, you need to have exact versions of CUDA and cudnn installed. This allows for machine learning inference to take place on your GPU, rather than CPU. Running this inference on GPU typically speeds up the inference time by around 10 times that of a similar year released CPU (GPU dependent).
+
+The versions needed are:
+* CUDA 10.0
+* cuDNN 7.4
