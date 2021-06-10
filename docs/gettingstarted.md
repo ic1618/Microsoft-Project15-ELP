@@ -48,7 +48,8 @@ We now need to install all the packages needed to make sure the system works as 
 To install the packages needed, run the following commands:
 ```
 pip install pydub
-pip install tensorflow
+pip install tensorflow-gpu==1.13.1 (if you are running on gpu, if not then pip install tensorflow==1.13.1)
+pip install keras==2.0.8
 pip install librosa
 pip install pandas 
 pip install matplotlib
@@ -56,6 +57,7 @@ pip install Pillow
 pip install opencv-python
 pip install ffmpeg
 pip install ffprobe
+pip install h5py==2.9.0
 ```
 ### Python Dependency installation for Custom Vision
 
@@ -73,7 +75,5 @@ pip install opencv-python
 pip install ffmpeg
 pip install ffprobe
 ```
-## CUDA, cudnnn installation for Yolov4 and Faster-RCNN
+## CUDA, cudnnn installation for Yolov4 and Faster-RCNN (Do not do this step if not using GPU)
 - Links to installations
-
-- How to set up system filepath etc
