@@ -61,7 +61,7 @@ pip install opencv-python
 pip install ffmpeg
 pip install ffprobe
 ```
-## CUDA, cudnnn installation
+## CUDA, cudnnn installation for Yolov4 and Faster-RCNN
 - Links to installations
 
 - How to set up system filepath etc
