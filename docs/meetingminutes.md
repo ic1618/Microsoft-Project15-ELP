@@ -3,7 +3,7 @@
 # Meeting Minutes
 
 Overview of KEY decisions taken:
-- Signal Processing method, Spectrogram vs MFCC, [1](# 28/04/2021), [2](# 30/04/2021)
+- Signal Processing method, Spectrogram vs MFCC, [1](#28/04/2021), [2](#30/04/2021)
 - Classification vs Object Detection [3](25/05/2021)
 
 ## 27/04/2021
