@@ -91,10 +91,7 @@ The installation for CUDA can be done by following the .exe installer instructio
 ### cuDNN 7.4
 This process is a short process that must be done manually. After downloading the cuDNN files from ["Version downloads"](#Version-downloads), unzip the folder and you will have a folder that looks like on the left:
 
-<p float="left">
-  <img src="assets/cudnn.png" alt="cuDNN" width="400"/>
-  <img src="assets/cuda.png" alt="CUDA" width="400"/>
-</p>
+<img src="assets/cudnn.png" alt="cuDNN" width="400"/>
 
 These folders correspond to the folders where you have installed CUDA. In your C:\ drive, find the location where CUDA 10.0 has been downloaded, for example mine is:
 > C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
