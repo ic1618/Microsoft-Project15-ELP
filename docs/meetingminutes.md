@@ -26,10 +26,10 @@
 
 ### Questions for Microsoft: 
 
-•	Notebook vs Running a project file – best way to run python project other than using notebook on Azure
-•	How to transfer the dataset from box?
-•	 Good azure tools for splitting up the audio files in order to use for testing, extracting certain audio from the files for the test set. Aka can there be an automation on Azure somewhere, to go through files and run a python script?
-•	We are comfortable with the machine learning side; the main thing will be the pre-processing of the data.
+-	Notebook vs Running a project file – best way to run python project other than using notebook on Azure
+-	How to transfer the dataset from box?
+-	 Good azure tools for splitting up the audio files in order to use for testing, extracting certain audio from the files for the test set. Aka can there be an automation on Azure somewhere, to go through files and run a python script?
+-	We are comfortable with the machine learning side; the main thing will be the pre-processing of the data.
 
 ## 28/04/2021
 
