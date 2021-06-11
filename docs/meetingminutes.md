@@ -2,6 +2,10 @@
 
 # Meeting Minutes
 
+Overview of KEY decisions taken:
+- Signal Processing method, Spectrogram vs MFCC, [1](# 28/04/2021), [2](# 30/04/2021)
+- Classification vs Object Detection [3](25/05/2021)
+
 ## 27/04/2021
 
 ### Agenda:
@@ -42,7 +46,7 @@
 ### Minutes
 1.	Spectrograms are visual representations of the frequency and amplitude of sound over a specified span of time, and are constructed from an array of frequencies. 
 2. use Librosa, an open-source Python library known for its convenience and versatility in audio analysis and manipulation. Librosa allows us to pass our samples to a function that would then compute the appropriate Fourier transforms needed to compose a valid spectrogram.
-3.	Spectrogram vs Mel-Spectrogram vs MFCC, we can ask Wei Dai what he thinks. https://medium.com/prathena/the-dummys-guide-to-mfcc-aceab2450fd
+3.	Spectrogram vs Mel-Spectrogram vs MFCC, we can ask IC supervisors opinion. https://medium.com/prathena/the-dummys-guide-to-mfcc-aceab2450fd
 4.	The advantage of MFCC is that it is good in error reduction and able to produce a robust feature when the signal is not affected by noise. SVD/PCA technique is used to extract the important features out of the B-Distribution representation.
 5. Reason to choose RNN is it takes time into account, we can test it out.
 6. Toughest part is the data processing and splitting and forming a good dataset
