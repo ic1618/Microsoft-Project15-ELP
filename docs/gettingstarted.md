@@ -105,7 +105,7 @@ Inside this folder you will find folders of the same name of the folders in your
 A required check to ensure that CUDA will work properly is to check whether it has been added to the system path variables. To do this open windows file explorer and enter the properties of your PC and click "Advanced System Settings":
 
 <p float="left">
-  <img src="assets/properties.png" alt="Start Menu" width="400"/>
-  <img src="assets/advanced.png" alt="Prompt" width="400"/>
+  <img src="assets/properties.png" alt="Properties" width="400"/>
+  <img src="assets/advanced.png" alt="Advanced Properties" width="400"/>
 </p>
 
