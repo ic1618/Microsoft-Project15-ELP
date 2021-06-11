@@ -11,5 +11,4 @@
 * [__Meeting Minutes__](meetingminutes.md)✔ needs checking
 * [__Code and resources used__](coderesources.md)
 * [__Ethical consequences and Sustainability report__](ethicalsustainability.md)
-* [__Template Page__](test.md)
-* [__Back to home__](index.md)
+
