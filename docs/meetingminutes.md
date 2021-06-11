@@ -251,7 +251,7 @@ Is anything blocking you?
 1.	Want to change the data representation because we are plateauing at 0.9 precision which will still throw a lot of false positives, therefore we are doing a split of background noise, hard negative, gunshot. 0,1,2.
 2.	For tomorrow generate the dataset
 
-## 25//05/2021
+## 25/05/2021
 ### Agenda
 1. Re-evaluate the MFCC method
 2. Talk about the distribution difference between test and train data, MFCC extremely effected by noise
