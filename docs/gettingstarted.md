@@ -113,7 +113,7 @@ This will open a panel that looks like the image on the left below. Click on "En
 
 <p float="left">
   <img src="assets/panel.png" alt="Panel" width="400"/>
-  <img src="assets/syscars.png" alt="Variables" width="400"/>
+  <img src="assets/sysvars.png" alt="Variables" width="400"/>
 </p>
 
 If there are any missing, you can add them using the "New..." button. One thing to look out for, if the "CUDA_PATH_V10_0" is just "CUDA_PATH", this is also fine, just ensure the "Value" leads to the correct folder in your C:\ drive (or whenever you installed CUDA).
