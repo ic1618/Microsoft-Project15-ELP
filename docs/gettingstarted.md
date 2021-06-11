@@ -91,9 +91,41 @@ The installation for CUDA can be done by following the .exe installer instructio
 ### cuDNN 7.4
 This process is a short process that must be done manually. After downloading the cuDNN files from ["Version downloads"](#Version-downloads), unzip the folder and you will have a folder that looks like this:
 
-image of the folder
+<img src="assets/cudnn.png" alt="cuDNN" width="400"/>
 
-These folders correspond to the folders where you have installed CUDA. In your C:\ drive, find the location where CUDA 10.0 has been downloaded, for example mine is:
+These folders correspond to the folders where you have installed CUDA. In your C:\ drive (or wherever you installed CUDA), find the location where CUDA 10.0 has been downloaded, for example mine is:
 > C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
 
+<img src="assets/cuda.png" alt="CUDA" width="400"/>
+ 
 Inside this folder you will find folders of the same name of the folders in your cuDNN download. Simply copy the contents of the folders into each of the corresponding folders. If there is a folder within a folder, do not copy the whole folder in, follow the folders up until the files and then copy those into the corresponding locations.
+
+### System Path check
+
+A required check to ensure that CUDA will work properly is to check whether it has been added to the system path variables. To do this open windows file explorer and enter the properties of your PC and click "Advanced System Settings":
+
+<p float="left">
+  <img src="assets/properties.png" alt="Properties" width="400"/>
+  <img src="assets/advanced.png" alt="Advanced Properties" width="400"/>
+</p>
+
+This will open a panel that looks like the image on the left below. Click on "Environment Variables" and it will open a new window with a section called "System variables". It should include all the variables beginning "CUDA" like the image on the right below.
+
+<p float="left">
+  <img src="assets/panel.png" alt="Panel" width="400"/>
+  <img src="assets/syscars.png" alt="Variables" width="400"/>
+</p>
+
+If there are any missing, you can add them using the "New..." button. One thing to look out for, if the "CUDA_PATH_V10_0" is just "CUDA_PATH", this is also fine, just ensure the "Value" leads to the correct folder in your C:\ drive (or whenever you installed CUDA).
+
+Below is a list of the variables and values for ease of use, if needed.
+
+```
+CUDA_BIN_PATH %CUDA_PATH%\bin
+CUDA_LIB_PATH %CUDA_PATH%\lib\x64
+CUDA_PATH_V10_0 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0 (or wherever you installed CUDA)
+CUDA_SDK_BIN_PATH %CUDA_SDK_PATH%\bin\win64
+CUDA_SDK_LIB_PATH %CUDA_SDK_PATH%\common\lib\x64
+CUDA_SDK_PATH C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.0 (or wherever your ProgramData for the samples)
+```
+
