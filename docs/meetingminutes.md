@@ -310,6 +310,17 @@ Is anything blocking you?
 2. Mention solution of using our model after the current detector runs, therefore we will have all amplitude spike locations, and our model can act as a filter.
 
 ### Minutes
-1. The first pass could be current detecotr, and second pass could be our model. 
-2. Our model can detect gunshots which are far away and do not have as big of an amplitude spike which might be missed by first pass
-3. Discussed about how we train our model against typical false positives such as raindrops, electrical ticks, thunder, monkey alarm calls.
+1. The first pass could be current detector, and second pass could be our model. 
+2. Found that our model doesnt detect every single gunshot when there are multilpe gunshots going off within 0.5 second of eachother, but it will get at least one, usually 33% of the closely packed gunshots from a 12s selection so they are not missed, as the gunshots are essentially overlapping.
+3. Our model can detect gunshots which are far away and do not have as big of an amplitude spike which might be missed by first pass
+4. Discussed about how we train our model against typical false positives such as raindrops, electrical ticks, thunder, monkey alarm calls.
+
+#### What did you accomplish last week?
+1. Tested our models, Yolov4, Faster-RCNN and Custom Vision and compared against Peters detector
+2. Labelled lots of data
+3. Trained the models against false positives we found it getting
+
+#### What will you accomplish this week?
+1. Finish off training the models and continue testing
+2. Clean up code and file structure ready for deployment
+3. Prepare for the demonstration of our model
