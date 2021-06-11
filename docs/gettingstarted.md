@@ -89,11 +89,13 @@ The reason for this is because Tensorflow 1.13.1 requires certain versions of CU
 The installation for CUDA can be done by following the .exe installer instructions.
 
 ### cuDNN 7.4
-This process is a short process that must be done manually. After downloading the cuDNN files from ["Version downloads"](#Version-downloads), unzip the folder and you will have a folder that looks like on the left:
+This process is a short process that must be done manually. After downloading the cuDNN files from ["Version downloads"](#Version-downloads), unzip the folder and you will have a folder that looks like this:
 
 <img src="assets/cudnn.png" alt="cuDNN" width="400"/>
 
 These folders correspond to the folders where you have installed CUDA. In your C:\ drive, find the location where CUDA 10.0 has been downloaded, for example mine is:
 > C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
-
+> 
+ <img src="assets/cuda.png" alt="CUDA" width="400"/>
+ 
 Inside this folder you will find folders of the same name of the folders in your cuDNN download. Simply copy the contents of the folders into each of the corresponding folders. If there is a folder within a folder, do not copy the whole folder in, follow the folders up until the files and then copy those into the corresponding locations.
