@@ -83,3 +83,5 @@ The versions needed are:
 * cuDNN 7.4
 
 The reason for this is because Tensorflow 1.13.1 requires certain versions of CUDA and cuDNN to run, see compatability table [here](https://www.tensorflow.org/install/source#gpu).
+
+<a href="https://www.tensorflow.org/install/source#gpu" target="_blank">here</a>
