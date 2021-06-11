@@ -81,3 +81,5 @@ To run these models on GPU, you need to have exact versions of CUDA and cudnn in
 The versions needed are:
 * CUDA 10.0
 * cuDNN 7.4
+
+The reason for this is because Tensorflow 1.13.1 requires certain versions of CUDA and cuDNN to run, see compatability table [here](https://www.tensorflow.org/install/source#gpu).
