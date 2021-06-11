@@ -129,3 +129,21 @@ CUDA_SDK_LIB_PATH %CUDA_SDK_PATH%\common\lib\x64
 CUDA_SDK_PATH C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.0 (or wherever your ProgramData for the samples)
 ```
 
+### Tensorflow GPU check
+
+Now that we have CUDA, cuDNN and Tensorflow-GPU installed we have to check whether the GPU is enabled. To do this open the Anaconda Prompt and enable python by typing
+```
+python
+```
+This should enter you into a python environment, excute the following commands in order
+```python
+import tensorflow as tf
+tf.test.is_gpu_available()
+```
+If this returns "True" then you have successfully installed CUDA, cuDNN and your tensorflow will run on GPU to make the model inferences. If it returns "False" please copy the error into Google, and there should be a solution!
+
+One common error returned talks about a missing .dll file, this may be due to not copying in the cuDNN file correctly. If you have checked you have copied in the file, another possible solution is to reinstall tensorflow-gpu by running the commands below in your Anaconda environment.
+```
+pip uninstall tensorflow-gpu==1.13.1
+pip install tensorflow-gpu==1.13.1
+```
