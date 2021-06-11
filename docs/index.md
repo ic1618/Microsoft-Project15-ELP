@@ -10,6 +10,6 @@
 * [__Design History__](designhistory.md)
 * [__Meeting Minutes__](meetingminutes.md)✔ needs checking
 * [__Code and resources used__](coderesources.md)
-* [__Ethical and Sustainability Report__](ethicalsustainability.md)
+* [__Ethical consequences and Sustainability report__](ethicalsustainability.md)
 * [__Template Page__](test.md)
 * [__Back to home__](index.md)
