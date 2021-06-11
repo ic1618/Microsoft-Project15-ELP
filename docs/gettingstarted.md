@@ -89,7 +89,7 @@ The reason for this is because Tensorflow 1.13.1 requires certain versions of CU
 The installation for CUDA can be done by following the .exe installer instructions.
 
 ### cuDNN 7.4
-This process is a short process that must be done manually. After downloading the cuDNN files from ["Version downloads"](#Version-downloads), you will have a folder that looks like this:
+This process is a short process that must be done manually. After downloading the cuDNN files from ["Version downloads"](#Version-downloads), unzip the folder and you will have a folder that looks like this:
 
 image of the folder
 
