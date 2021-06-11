@@ -5,6 +5,7 @@
 Overview of KEY decisions taken:
 - Signal Processing method, Spectrogram vs MFCC 28/04/2021, 30/04/2021
 - Classification vs Object Detection 25/05/2021
+- Custom Vision vs Yolov4 vs Faster-RCNN 10/06/2021
 
 ## 27/04/2021
 
