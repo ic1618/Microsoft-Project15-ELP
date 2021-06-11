@@ -95,7 +95,17 @@ This process is a short process that must be done manually. After downloading th
 
 These folders correspond to the folders where you have installed CUDA. In your C:\ drive, find the location where CUDA 10.0 has been downloaded, for example mine is:
 > C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
-> 
- <img src="assets/cuda.png" alt="CUDA" width="400"/>
+
+<img src="assets/cuda.png" alt="CUDA" width="400"/>
  
 Inside this folder you will find folders of the same name of the folders in your cuDNN download. Simply copy the contents of the folders into each of the corresponding folders. If there is a folder within a folder, do not copy the whole folder in, follow the folders up until the files and then copy those into the corresponding locations.
+
+### System Path check
+
+A required check to ensure that CUDA will work properly is to check whether it has been added to the system path variables. To do this open windows file explorer and enter the properties of your PC and click "Advanced System Settings":
+
+<p float="left">
+  <img src="assets/properties.png" alt="Start Menu" width="400"/>
+  <img src="assets/advanced.png" alt="Prompt" width="400"/>
+</p>
+
