@@ -36,7 +36,9 @@ You should have the folders below:
 
 ## Running the detector
 
-When running the detector, you need to make sure you are in the correct environment on your Anaconda Prompt, which can be seen in the brackets, i.e if running Yolov4 or Faster-RCNN you need to be in (TF1env), and for Custom Vision (TF2env). Please refer to ["Creating an anaconda environment"](gettingstarted.md#Creating-an-Anaconda-virtual-environment) if you are unaware of what this means. 
+When running the detector, you need to make sure you are in the correct environment on your Anaconda Prompt, which can be seen in the brackets, i.e if running Yolov4 or Faster-RCNN you need to be in (TF1env), and for Custom Vision (TF2env). If not then simply activate the environment using 'conda activate TF1env' or 'conda activate TF2env'.
+
+Please refer to ["Creating an anaconda environment"](gettingstarted.md#Creating-an-Anaconda-virtual-environment) if you are unaware of what this means. 
 
 Once you are in your environment you must navigate to the location at which the detector code is. To do this in the Anaconda Prompt run the following:
 ```
