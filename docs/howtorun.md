@@ -44,8 +44,7 @@ cd C:\Path\To\Detector\File
 ```
 where you change the "C:\Path\To\Detector\File" to the path of the detector.
 
-Now we are ready to run the detector.
-
+Now we are ready to run the detector:
 ### For Faster-RCNN 
 ```
 python detect.py
