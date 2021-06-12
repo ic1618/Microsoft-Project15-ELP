@@ -61,7 +61,11 @@ python detect.py
 python python/predict.py sounds
 ```
 
-## Finding the output
+You will find for all three detectors, it will say
+<img src="assets/loaded.png" alt="Loaded" width="400"/>
+which means it is sucessfully reading the soundfiles you provided!
+
+## Outputted results
 
 All three detectors produce output spectrogram images along with a CSV files of the results, including the label and the file offset. The CSV file for all models is generated in the main folder, the image outputs vary:
 
