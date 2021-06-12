@@ -60,3 +60,14 @@ python detect.py
 ```
 python python/predict.py sounds
 ```
+
+## Finding the output
+
+All three detectors produce output spectrogram images along with a CSV files of the results, including the label and the file offset. The CSV file for all models is generated in the main folder, the image outputs vary:
+
+### For Faster-RCNN 
+> dataset\detected
+### For Yolov4
+> VOCdevkit\VOC2007\detected
+### For Custom Vision
+> cache\images
