@@ -21,3 +21,9 @@ IMPORTANT: the detector works in 12 second chunks, so the clips have to be minim
 You should have the folders below:
 
 <img src="assets/folders.png" alt="Folders" width="400"/>
+
+### For Yolov4
+
+You should have the folders below:
+
+<img src="assets/yolofolders.png" alt="Folders" width="400"/>
