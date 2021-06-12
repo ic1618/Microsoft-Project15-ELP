@@ -6,7 +6,7 @@
 ```
 
 * [__Getting Started__](gettingstarted.md)✔ needs checking
-* [__How to run__](howtorun.md)
+* [__How to run__](howtorun.md) 👷‍
 * [__Design History__](designhistory.md)
 * [__Meeting Minutes__](meetingminutes.md)✔ needs checking
 * [__Code and resources used__](coderesources.md)
