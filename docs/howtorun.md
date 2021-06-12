@@ -27,3 +27,9 @@ You should have the folders below:
 You should have the folders below:
 
 <img src="assets/yolofolders.png" alt="Folders" width="400"/>
+
+### For Custom Vision
+
+You should have the folders below:
+
+<img src="assets/cvfolders.png" alt="Folders" width="400"/>
