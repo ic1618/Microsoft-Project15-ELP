@@ -6,6 +6,7 @@ Overview of KEY decisions taken:
 - Signal Processing method, Spectrogram vs MFCC 28/04/2021, 30/04/2021
 - Classification vs Object Detection 25/05/2021
 - Custom Vision vs Yolov4 vs Faster-RCNN 10/06/2021
+- USING OUR DETECTOR AS A FILTER 10/06/2021
 
 ## 27/04/2021
 
@@ -329,3 +330,7 @@ Is anything blocking you?
 1. Finish off training the models and continue testing
 2. Clean up code and file structure ready for deployment
 3. Prepare for the demonstration of our model
+
+#### Important development
+1. From the current detector, it can filter all the 24 hour soundclips and give us important sound events.
+2. The method of second pass can be done by putting key sound event selections and running it through our detector, essentially what this means is instead of a human trying to check each individually after the first pass, our detector can do this to filter it down even more, then once this is done a human can check again manually!
