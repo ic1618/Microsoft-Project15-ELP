@@ -62,8 +62,10 @@ python python/predict.py sounds
 ```
 
 You will find for all three detectors, it will say
-<img src="assets/loaded.png" alt="Loaded" width="400"/>
-which means it is sucessfully reading the soundfiles you provided!
+
+<img src="assets/loaded.png" alt="Loaded"/>
+
+which means it is sucessfully reading the soundfiles you provided! The time taken to load sound files vary, depending on CPU speed, load and size of the clip.
 
 ## Outputted results
 
