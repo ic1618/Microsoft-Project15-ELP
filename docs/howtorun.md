@@ -33,3 +33,5 @@ You should have the folders below:
 You should have the folders below:
 
 <img src="assets/cvfolders.png" alt="Folders" width="400"/>
+
+## Running the detector
