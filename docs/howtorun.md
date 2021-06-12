@@ -45,6 +45,7 @@ cd C:\Path\To\Detector\File
 where you change the "C:\Path\To\Detector\File" to the path of the detector.
 
 Now we are ready to run the detector:
+>There may be warning messages, it is OK to ignore them! They are mainly to do with version control and future usage of some of the python libraries.
 ### For Faster-RCNN 
 ```
 python detect.py
@@ -57,5 +58,3 @@ python detect.py
 ```
 python python/predict.py sounds
 ```
-
->There may be warning messages, it is OK to ignore them! They are mainly to do with version control and future usage of some of the python libraries.
