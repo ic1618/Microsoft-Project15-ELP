@@ -329,3 +329,7 @@ Is anything blocking you?
 1. Finish off training the models and continue testing
 2. Clean up code and file structure ready for deployment
 3. Prepare for the demonstration of our model
+
+#### Important development
+1. From the current detector, it can filter all the 24 hour soundclips and give us important sound events.
+2. The method of second pass can be done by putting key sound event selections and running it through our detector, essentially what this means is instead of a human trying to check each individually after the first pass, our detector can do this to filter it down even more, then once this is done a human can check again manually!
