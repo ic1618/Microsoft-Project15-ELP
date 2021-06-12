@@ -1,12 +1,11 @@
 [__Back to home__](index.md)
 
-# Template Page
+# How to run
 
-## Title
+Once you have completed the [Getting Started](gettingstarted.md) step, you are now ready to run the detector on sound clips!
 
-This is a template page to include things.
+## Choosing the clips for detection
 
-Make sure for each new documentation you:
-- Add the link the the page you are writing into 'index.md' by using ``` [__Page Name__](filename.md) ```
-- Always have the "Back to home" button on the page you are writing using ``` [__Back to home__](index.md) ```
-- Possibly add all of these in order, underneath index.md
+In the model files, there should be a folder called 'sounds', if not then simply create one in the main directory. The reason it may not be there is because sometimes sites like Github remove empty folders from projects. 
+
+### For Faster-RCNN 
