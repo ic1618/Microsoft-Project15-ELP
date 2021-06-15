@@ -21,7 +21,7 @@ Initially we began research by reading papers and watching video lectures in sig
 What we found were two common signal processing techniques in order to analyse sound, the Mel-Frequency Cepstrum Coefficients (MFCCs, on the left below) and the Mel-Spectrogram (on the right below). Since MFCCs was a smaller representation and most commonly used in audio machine learning for speech and sound classification, we believed it would be a great place to start, and build a dataset on.
 
 <p float="left">
-  <img src="assets/mfcc.png" alt="MFCC" width="400"/>
-  <img src="assets/spectrogram.png" alt="Spectrgram" width="400"/>
+  <img src="assets/mfcc.png" alt="MFCC"/>
+  <img src="assets/spectrogram.png" alt="Spectrgram"/>
 </p>
 
