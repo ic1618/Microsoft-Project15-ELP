@@ -31,14 +31,30 @@ Since MFCCs were a smaller representation and most commonly used in audio machin
 
 #### Multi-layer perceptron
 
-The multi-layer peceptron is a common machine learning model used for things such as regression or classification, from our knowledge of machine learning we believed this network would not perform well due to its 'global approach' limitation, where all values are passed into the network at once. This will also have an extremely high complexity with the data representation of sounds we are using.
+The multi-layer peceptron is a common machine learning model used for things such as regression or classification, from our knowledge of machine learning we believed this network would not perform well due to its 'global approach' limitation, where all values are passed into the network at once. This will also have an extremely high complexity with the data representation of sounds we are using as we would have to flatten all the 3D arrrays into a single 1D array and input all of this data at once.
 
 #### Convolutional Neural Network (CNN)
 
 #### Recurrent Neural Network (RNN)
 
-A recurrent neural network is a special type of network which can recognise sequencing, and therefore we believed it would work very well in order the detect gunshots. This is because a gunshot typically has an initial impulse and then a trailing echo, an RNN would be able to learn this impulse and trailing echo type scenario and output whether it was a gunshot or something else.
+A recurrent neural network is a special type of network which can recognise sequencing, and therefore we believed it would work very well in order the detect gunshots. This is because a gunshot typically has an initial impulse and then a trailing echo, an RNN would be able to learn this impulse and trailing echo type scenario and output whether it was a gunshot or something else. This would be trained with MFCCs.
 
 #### Object Detection 
 
+Although a heavier network, object detection would work well in order to detect gunshots from Mel-Spectrograms due to a gunshots unique shape.
 
+## Implementation
+
+### CNN with Mel-Spectrogram
+
+### CNN and RNN with MFCC
+
+### Object Detection with Mel-Spectrogram
+
+## Build
+
+### Custom Vision
+
+### Yolov4
+
+### Faster-RCNN
