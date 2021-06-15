@@ -71,13 +71,15 @@ which means it is sucessfully reading the soundfiles you provided! The time take
 
 ## Outputted results
 
-All three detectors produce output spectrogram images along with a CSV files of the results, including the label and the file offset. The CSV file for all models is generated in the main folder, the image outputs vary:
+All three detectors produce output spectrogram images along with a CSV files of the results. **The CSV file for all models is generated and saved in the main folder**, the image outputs vary.
 
-### For Faster-RCNN 
+### Tagged images
+
+#### For Faster-RCNN 
 > dataset\detected
 
-### For Yolov4
+#### For Yolov4
 > VOCdevkit\VOC2007\detected
 
-### For Custom Vision
+#### For Custom Vision
 > cache\images
