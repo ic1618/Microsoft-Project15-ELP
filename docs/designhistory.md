@@ -4,6 +4,10 @@
 
 From concept, implementation, to build...
 
+## Overview
+
+<img src="assets/slides.png" alt="Overview"/>
+
 ## Concept
 
 
