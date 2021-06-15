@@ -29,12 +29,12 @@ Since MFCCs were a smaller representation and most commonly used in audio machin
 
 ### Machine Learning
 
-#### Multi-layer perceptron
+#### Multi-layer perceptron (MLP)
 
 The multi-layer peceptron is a common machine learning model used for things such as regression or classification, from our knowledge of machine learning we believed this network would not perform well due to its 'global approach' limitation, where all values are passed into the network at once. This will also have an extremely high complexity with the data representation of sounds we are using as we would have to flatten all the 3D arrrays into a single 1D array and input all of this data at once.
 
 #### Convolutional Neural Network (CNN)
-👷‍♂️
+👷‍♂️ CNNs are mainly applied to analyse visual 2D data therefore we do not have to flatten our data like we have to do with MLP. Using this you can classify an image to find whether or not a gunshot is present since is "scans through" the data and looks for patterns, in our case a gunshot pattern. 
 
 #### Recurrent Neural Network (RNN)
 
@@ -42,7 +42,7 @@ A recurrent neural network is a special type of network which can recognise sequ
 
 #### Object Detection 
 👷‍♂
-Although a heavier network, object detection would work well in order to detect gunshots from Mel-Spectrograms due to a gunshots unique shape.
+Although a heavier network, object detection would work well in order to detect gunshots from Mel-Spectrograms due to a gunshots unique shape. This means that we can detect whether there is a gunshot present, but also how many gunshots are present as Object Detection won't classify the entire image like a CNN would, it would classify regions of the image.
 
 ## Implementation
 
