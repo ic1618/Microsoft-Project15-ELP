@@ -71,7 +71,7 @@ which means it is sucessfully reading the soundfiles you provided! The time take
 
 ## Outputted results
 
-All three detectors produce output spectrogram images along with a CSV files of the results. **The CSV file for all models is generated and saved in the main folder**, the image outputs vary.
+All three detectors produce output spectrogram images along with a CSV files of the results. **The CSV file for all models is generated and saved in the main folder**, the image output locations vary.
 
 ### Tagged images
 
