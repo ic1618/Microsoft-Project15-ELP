@@ -48,15 +48,24 @@ Although a heavier network, object detection would work well in order to detect 
 
 ### CNN with Mel-Spectrogram
 👷‍♂️
+
 ### CNN and RNN with MFCC
 👷‍♂️
+
 ### Object Detection with Mel-Spectrogram
 👷‍♂️
+
+
 ## Build
+
+### Use of cloud technology
+👷‍♂️
 
 ### Custom Vision
 👷‍♂️
+
 ### Yolov4
 👷‍♂️
+
 ### Faster-RCNN
 👷‍♂️
