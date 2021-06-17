@@ -83,3 +83,5 @@ All three detectors produce output spectrogram images along with a CSV files of 
 
 #### For Custom Vision
 > cache\images
+
+## Confirming proper operation
