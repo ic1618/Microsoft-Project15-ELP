@@ -87,7 +87,7 @@ In this project, the use of cloud technology allowed us to speed up many process
 
 In order to store all of our sound files, we used blob storages on Azure. This meant that we could import these large 24 hour audio files into Azure ML studio for building our dataset. Azure ML studio allowed us to create IPYNB notebooks to run our scripts to find the gunshots in the files, extract them and build our dataset.
 
-<img src="assets/blob.png" alt="Blob storage" width="400"/>
+<img src="assets/blob.png" alt="Blob storage" width="600"/>
 
 #### Data labelling
 
