@@ -75,7 +75,7 @@ Object Detection won't classify the entire image like a CNN would, it would clas
 
 What this allowed us to do was to also get the extact start and end times of gunshots, and hence automatically building a clean dataset that can be used to train networks in the future with much cleaner data that contains the exact location of these sound events! This method also allowed us to count the gunshots by seeing how many were detected in the 12s window, as you can see below.
 
-<img src="assets/multi.jpg" alt="Multi-Gunshots"/>
+<img src="assets/multidetect.png" alt="Multi-Gunshots"/>
 
 ## Build
 
