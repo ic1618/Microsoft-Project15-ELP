@@ -97,7 +97,7 @@ Azure ML studio also provided us with a Data Labelling service where we could la
 
 ### Custom Vision
 
-The Custom Vision model is the simplest model of the three to train. We did this by using [Azure Custom Vision](customvision.ai), 
+The Custom Vision model is the simplest model of the three to train. We did this by using [Azure Custom Vision](https://customvision.ai), 
 
 ### Yolov4
 👷‍♂️
