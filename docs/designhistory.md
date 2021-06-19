@@ -47,7 +47,11 @@ Although usually a larger architecture, object detection would work well in orde
 
 ## Implementation
 
-### The dataset we were provided
+### The Dataset
+
+**The data we were given was a key factor in which models worked for us and did not.**
+
+We were given thousands of hours of audio data, each file being 24 hours long. Since we were provided with 'relative' gunshot locations in audio clips, our dataset was very noisy, the time locations we were given usually contained a gunshot within 12 seconds of the given time, and sometimes contained multiple gunshots. Due to the lack of time on this project, it was not realistic to listen to all of the sound clips and manually relabel all our data by ear, also, gunshots are sometimes very hard to distinguish from other rainforests sounds by ear, and many of these other sounds were very new to us. This is why we took a 12 second window in our signal processing, to ensure all of our data contains the gunshot(s). Luckily, in our testing of different machine learning techniques, we found an approach to solve the problem of detecting gunshots in noisy data, as well as building a clean dataset for the future!
 
 ### CNN with Mel-Spectrogram
 
