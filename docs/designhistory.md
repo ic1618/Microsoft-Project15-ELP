@@ -60,8 +60,8 @@ Luckily, in our testing of different machine learning techniques, we found an ap
 Building a simple CNN with only a few convolutional layers, which a dense layer classifying whether there is a gunshot or not, worked quite well, with precision and recall above 80% on our validation sets! However, this method on noisy images did not work well, noisy images being a Mel-spectrogram with a lot of different sounds, such as below. Although it has an OK precision and recall, we cannot guarantee all the gunshots will be the only sounds occuring at once. Below you can see an example of a gunshot which can be detected using a CNN, and a gunshot that cannot be detected using a CNN.
 
 <p float="left">
-  <img src="assets/clean.png" alt="Clear gunshot"/>
-  <img src="assets/noisy.png" alt="Noisy gunshot"/>
+  <img src="assets/clean.jpg" alt="Clear gunshot"/>
+  <img src="assets/noisy.jpg" alt="Noisy gunshot"/>
 </p>
 
 ### CNN and RNN with MFCC
@@ -75,7 +75,7 @@ Object Detection won't classify the entire image like a CNN would, it would clas
 
 What this allowed us to do was to also get the extact start and end times of gunshots, and hence automatically building a clean dataset that can be used to train networks in the future with much cleaner data that contains the exact location of these sound events! This method also allowed us to count the gunshots by seeing how many were detected in the 12s window, as you can see below.
 
-<img src="assets/multi.png" alt="Multi-Gunshots"/>
+<img src="assets/multi.jpg" alt="Multi-Gunshots"/>
 
 ## Build
 
