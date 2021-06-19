@@ -2,7 +2,7 @@
 
 # Design History
 
-From concept, implementation and build...
+From concept to implementation and build...
 
 ## Overview
 
