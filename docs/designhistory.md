@@ -87,9 +87,13 @@ In this project, the use of cloud technology allowed us to speed up many process
 
 In order to store all of our sound files, we used blob storages on Azure. This meant that we could import these large 24 hour audio files into Azure ML studio for building our dataset. Azure ML studio allowed us to create IPYNB notebooks to run our scripts to find the gunshots in the files, extract them and build our dataset.
 
+<img src="assets/mfc.png" alt="Blob storage"/>
+
 #### Data labelling
 
 Azure ML studio also provided us with a Data Labelling service where we could label our Mel-spectrograms for gunshots and build our dataset to train our object detection models. These object detection models (Yolov4 and Faster-RCNN) use XML files in training, Azure ML studio allows us to export our labelled data in a  COCO format in a JSON file. The conversion from COCO to the XML format we needed to train our models was done with ease.
+
+<img src="assets/mfc.png" alt="Data Labelling"/>
 
 ### Custom Vision
 👷‍♂️
