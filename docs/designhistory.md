@@ -49,9 +49,11 @@ Although usually a larger architecture, object detection would work well in orde
 
 ### The Dataset
 
-**The data we were given was a key factor in which models worked for us and did not.**
+**The data we were given was a key factor and had a direct impact in which models worked for us and did not.**
 
-We were given thousands of hours of audio data, each file being 24 hours long. Since we were provided with 'relative' gunshot locations in audio clips, our dataset was very noisy, the time locations we were given usually contained a gunshot within 12 seconds of the given time, and sometimes contained multiple gunshots. Due to the lack of time on this project, it was not realistic to listen to all of the sound clips and manually relabel all our data by ear, also, gunshots are sometimes very hard to distinguish from other rainforests sounds by ear, and many of these other sounds were very new to us. This is why we took a 12 second window in our signal processing, to ensure all of our data contains the gunshot(s). Luckily, in our testing of different machine learning techniques, we found an approach to solve the problem of detecting gunshots in noisy data, as well as building a clean dataset for the future!
+We were given thousands of hours of audio data, each file being 24 hours long. Since we were provided with 'relative' gunshot locations in audio clips, our dataset was very noisy, the time locations we were given usually contained a gunshot within 12 seconds of the given time, and sometimes contained multiple gunshots. Due to the lack of time on this project, it was not realistic to listen to all of the sound clips and manually relabel all our data by ear, also, gunshots are sometimes very hard to distinguish from other rainforests sounds by ear, and many of these other sounds were very new to us. This is why we took a 12 second window in our signal processing, to ensure all of our data contains the gunshot(s). 
+
+Luckily, in our testing of different machine learning techniques, we found an approach to solve the problem of detecting gunshots in noisy data, as well as building a clean dataset for the future!
 
 ### CNN with Mel-Spectrogram
 
@@ -64,11 +66,16 @@ Building a simple CNN with only a few convolutional layers, which a dense layer 
 
 ### CNN and RNN with MFCC
 
+This method suffered a similar problem with noise as the [CNN with Mel-Spectrogram](#CNN-with-Mel-Spectrogram) did. However with a clean dataset, we think an RNN with MFCC would work extremely well!
 
 
 ### Object Detection with Mel-Spectrogram
-👷‍♂️
 
+Object Detection won't classify the entire image like a CNN would, it would classify regions of the image, and therefore it can ignore other sound events on a Mel-spectrogram. In our testing we found that object detection worked very well in detecting gunshots on a mel-spectrogram, and could even be trained to detect other sound events such as raindrops hitting the acoustic recorder, monkey alarm calls and thunder!
+
+What this allowed us to do was to also get the extact start and end times of gunshots, and hence automatically building a clean dataset that can be used to train networks in the future with much cleaner data that contains the exact location of these sound events! This method also allowed us to count the gunshots by seeing how many were detected in the 12s window, as you can see below.
+
+<img src="assets/mfc.png" alt="Multi-Gunshots"/>
 
 ## Build
 
