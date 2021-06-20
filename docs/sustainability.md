@@ -2,7 +2,7 @@
 
 # Sustainability Report
 
-## Title
+## Social
 
 This is a template page to include things.
 
@@ -11,3 +11,6 @@ Make sure for each new documentation you:
 - Always have the "Back to home" button on the page you are writing using ``` [__Back to home__](index.md) ```
 - Possibly add all of these in order, underneath index.md
 
+## Environmental
+
+## Economic
