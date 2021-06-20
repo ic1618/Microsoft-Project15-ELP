@@ -10,5 +10,6 @@
 * [__Design History__](designhistory.md) 👷‍♂️ need to do Yolov4 and Faster-RCNN "Build" section
 * [__Meeting Minutes__](meetingminutes.md) ✔ needs checking
 * [__Code and resources used__](coderesources.md)
-* [__Ethical consequences and Sustainability report__](ethicalsustainability.md)
+* [__Ethical consequences__](ethical.md)
+* [__Sustainability Report__](sustainability.md)
 * [__Sources__](sources.md)
