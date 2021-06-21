@@ -18,7 +18,7 @@ Making sure that the systems developed and deployed reduce unfairness in society
 
 ### Reliability & Safety
 
-In order to develop a system that is reliable, we asked our client for a various and diverse amount of test data in which we tested on our system. This meant that we can provide statistics and behaviours of our system in different situations to inform our client on it's performance, but also events they should look out for for the system to perform as it should.
+In order to develop a system that is reliable, we asked our client for a various and diverse amount of test data in which we tested on our system. This meant that we can provide statistics and behaviours of our system in different situations to inform our client on it's performance, but also events they should look out for for the system to perform as it should. Systems not performing correctly can cause harm to a project or business. Our client will look to send out helicopters to capture poachers if they decide to deploy our system in real-time, and therefore it is important that they know the reliability and confidence levels of our system. Sending helicopters is not cheap, and the costs can pile up!
 
 ### Privacy & Security
 
