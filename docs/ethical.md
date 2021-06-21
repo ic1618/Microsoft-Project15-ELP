@@ -44,7 +44,7 @@ The structure we put in place to take into account our principles. In our projec
 
 ## Consequences if tracking and catching poachers
 
-The act of poaching elephants is illegal. [The ban on international trade was introduced in 1989 by CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) after years of unprecedented poaching](https://https://wwf.panda.org/discover/knowledge_hub/endangered_species/elephants/african_elephants/afelephants_threats/).
+The act of poaching elephants is illegal. [The ban on international trade was introduced in 1989 by CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) after years of unprecedented poaching](https://wwf.panda.org/discover/knowledge_hub/endangered_species/elephants/african_elephants/afelephants_threats/).
 
 ### Rangers
 
