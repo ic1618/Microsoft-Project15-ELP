@@ -36,4 +36,6 @@ This inclusiveness also means that our system must be able to be used by people 
 
 #### Transparency
 
+Transparency helps to mitigate unfairness and allow an AI system to evolve. You have to to open about the limitations of the system and know about the behaviour of your system and therefore all our code is open source and can be developed upon in the future. We also provide our client with the complete dataset we built that our AI system was trained on.
+
 #### Accountability
