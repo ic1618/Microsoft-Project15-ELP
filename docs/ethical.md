@@ -12,7 +12,7 @@ In developing our AI/Machine Learning system, we took into account the ethical v
 - Transparency - AI systems should be understandable
 - Accountability - People should be accountable for AI systems
 
-### Fairness
+### Fairness & Inclusiveness
 
 Making sure that the systems developed and deployed reduce unfairness in society, rather than keeping it at the same level or making it worse! The way we tackled this pillar was to talk to as many people from different industries as possible in developing our system! We talked to Computer Vision experts, Cloud Advocates, University Proffessors and very importantly our client who works in the field!
 
@@ -23,8 +23,6 @@ In order to develop a system that is reliable, we asked our client for a various
 ### Privacy & Security
 
 We made sure to ask our client what we were allowed and not allowed to publicly make available, such as the dataset we were using, images of the locations of acoustic recorders currently deployed, meeting recordings and private discussions we had about the project. This meant that we could build our system in a secure way, which does not endanger anyone on the project or the forest elephants we are trying to protect.
-
-### Inclusiveness
 
 ### Transparency
 
