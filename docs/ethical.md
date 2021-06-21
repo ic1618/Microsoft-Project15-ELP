@@ -41,3 +41,11 @@ Transparency helps to mitigate unfairness and allow an AI system to evolve. You 
 #### Accountability
 
 The structure we put in place to take into account our principles. In our project, we are accountable for the system being able to run correctly, and building our system in a correct way and robust way for it to be deployed in the field. We are also accountable to keeping all these ethical and responsible AI values in mind when developing our system.
+
+## Catching poachers
+
+### Rangers
+
+A key consequene of our system is that once deployed in the field the national park rangers will be notified when there has been a gunshot and what acoustic recorders/microphones have picked this gunshot up. This means that rangers are putting their lives at risk to catch these poachers who are armed with lethal weapons. From an ethical perspective we have to think about the safety of the rangers, and therefore any rangers or helicopters sent in to catch poachers, from information used by our system must be informed and fully trained to do so, this means that we can ensure safety and not putting anyones life at risk. 
+
+### Poaching elephants is illegal
