@@ -53,3 +53,7 @@ A key consequene of our system is that once deployed in the field the national p
 ### Poachers
 
 Since the activity of these poachers is illegal, if caught the poachers would end up being detained and put on trial. The system may be used as a way in which a poacher would be caught and they may end up going to jail, it depends on the law and own opinion how ethical this is.
+
+### Sensors
+
+If our system is deployed on IoT devices, we have to make sure to use ethical sensors that do not disrupt the natural rainforest environment and birds nests. Some devices may get hot under increased load, and therefore it is imprtant to make sure this does not hurt animals or cause a fire. Also, if found by an animal the device must not cause damage to the animal, if say the animal consumed parts of the device.
