@@ -14,11 +14,11 @@ In developing our AI/Machine Learning system, we took into account the ethical v
 
 ### Fairness & Inclusiveness
 
-Making sure that the systems developed and deployed reduce unfairness in society, rather than keeping it at the same level or making it worse! The way we tackled this pillar was to talk to as many people from different industries as possible in developing our system! We talked to Computer Vision experts, Cloud Advocates, University Proffessors and very importantly our client who works in the field!
+Making sure that the systems developed and deployed reduce unfairness in society, rather than keeping it at the same level or making it worse! The way we tackled this pillar was to talk to as many people from different industries as possible in developing our system! We talked to Computer Vision experts, Cloud Advocates, University Professors and very importantly our client who works in the field!
 
 ### Reliability & Safety
 
-In order to develop a system that is reliable, we asked our client for a various amount of test data in which we tested on our system. This meant that we can provide statistics and behaviours of our system in different situations to inform out client on it's performance, but also events they should look out for for the system to perform as it should.
+In order to develop a system that is reliable, we asked our client for a various and diverse amount of test data in which we tested on our system. This meant that we can provide statistics and behaviours of our system in different situations to inform our client on it's performance, but also events they should look out for for the system to perform as it should.
 
 ### Privacy & Security
 
