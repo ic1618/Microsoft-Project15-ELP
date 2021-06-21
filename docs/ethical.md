@@ -16,6 +16,10 @@ In developing our AI/Machine Learning system, we took into account the ethical v
 
 Making sure that the systems devleoped and deployed reduce unfairness in society, rather than keeping it at the same level or making it worse! 
 
+#### Technical Component
+
+#### Societal Context
+
 ### Reliability & Safety
 
 ### Privacy & Security
