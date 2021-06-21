@@ -42,7 +42,7 @@ Transparency helps to mitigate unfairness and allow an AI system to evolve. You 
 
 The structure we put in place to take into account our principles. In our project, we are accountable for the system being able to run correctly, and building our system in a correct way and robust way for it to be deployed in the field. We are also accountable to keeping all these ethical and responsible AI values in mind when developing our system.
 
-## Consequences if tracking and catching poachers
+## Consequences of gunshot detection
 
 The act of poaching elephants is illegal. [The ban on international trade was introduced in 1989 by CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) after years of unprecedented poaching](https://wwf.panda.org/discover/knowledge_hub/endangered_species/elephants/african_elephants/afelephants_threats/).
 
@@ -52,4 +52,4 @@ A key consequene of our system is that once deployed in the field the national p
 
 ### Poachers
 
-### Elephants
+Since the activity of these poachers is illegal, if caught the poachers would end up being detained and put on trial. The system may be used as a way in which a poacher would be caught and they may end up going to jail, it depends on the law and own opinion how ethical this is.
