@@ -10,6 +10,6 @@
 * [__Design History__](designhistory.md) 👷‍♂️ need to do "Build" section
 * [__Meeting Minutes__](meetingminutes.md) ✔ needs checking
 * [__Code and resources used__](coderesources.md)
-* [__Ethical consequences__](ethical.md)
+* [__Ethical consequences__](ethical.md) ✔ needs checking
 * [__Sustainability Report__](sustainability.md)
 * [__Sources__](sources.md)
