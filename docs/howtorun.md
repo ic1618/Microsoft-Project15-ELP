@@ -2,7 +2,7 @@
 
 # How to run
 
-Once you have completed the [Getting Started](gettingstarted.md) step, you are now ready to run the detector on sound clips!
+Once you have completed the [Getting Started](gettingstarted.md) step, you are now ready to run the detector on sound clips! Also, please download your desired model from [Code and Resources used](coderesources.md)
 
 ## Choosing the clips for detection
 
