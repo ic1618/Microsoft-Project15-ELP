@@ -106,8 +106,8 @@ Custom Vision is a part of the Azure Cognitive Services provided by Microsoft wh
 First, we have to upload a set of images which will represent our dataset and tag them creating a bounding box around the sound shape("around the object"). Once the labelling is done, the dataset has to be trained. The model will be trained in the cloud so no coding is needed in the training process. The only feature that we have to adjust when we train the model is the time budget spent. A larger time budget allowed means better learning. However, when the model cannot be improved anymore, the training will stop even though there is still some time left.
 
 <p float="left">
-  <img src="assets/cv-training-options.png" alt="Training time" />
-  <img src="assets/cv-precision-recall-charts.png" alt="Charts"/>
+  <img src="assets/cv-training-options.png" alt="Training time" width="600" />
+  <img src="assets/cv-precision-recall-charts.png" alt="Charts" width="600" />
 </p>
 
 The service provides us with some charts for model's precision and recall. By adjusting the probability threshold and the overlap threshold of our model we can see how the precision and recall evolves. This is helpful when trying to find the optimal probability threshold for detecting the gunshots.
