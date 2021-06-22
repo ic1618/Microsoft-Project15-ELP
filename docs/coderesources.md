@@ -32,6 +32,6 @@
 ## Sources of code
 - [Pydub](https://github.com/jiaaro/pydub)
 - [Librosa](https://librosa.org/doc/)
-- [Yolov4]()
-- [Faster-RCNN]()
+- [Yolov4](https://github.com/bubbliiiing/yolov4-keras)
+- [Faster-RCNN](https://github.com/yhenon/keras-rcnn)
 
