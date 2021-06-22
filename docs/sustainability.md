@@ -19,7 +19,7 @@ The Nouabale-Ndoki national park is where our client is currently based, and try
 - Protecting the park and its wildlife through the implementation of a full-chain, hunter to consumer, wildlife law enforcement program
 
 - Working with remote, local communities to improve their livelihoods, promote sustainable natural resource use in the park periphery, and work towards a situation where people feel that they benefit from the park
--
+
 - Using science to drive informed conservation decisions for the long-term protection of the Ndoki landscape and its wildlife.
 
 Our gunshot detection system can help to achieve these sustainability goals.
