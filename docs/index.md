@@ -11,4 +11,4 @@
 * [__Meeting Minutes__](meetingminutes.md) ✔ needs checking
 * [__Ethical consequences__](ethical.md) ✔ needs checking
 * [__Sustainability Report__](sustainability.md) ✔ needs checking
-* [__Code and resources used__](coderesources.md)
+* [__Code and resources used__](coderesources.md) ✔ needs checking, any more?
