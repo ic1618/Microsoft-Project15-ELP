@@ -64,6 +64,6 @@ The users of the system are the ones responsible for the data collection and rep
 
 - Destroying data
 - Changing data
-- Sharing data
+- Sharing data with poachers
 
 It is up to the user to use the system ethically, since unethical use of our system can cause the problem of poaching to get even worse, since the changing of data may mean that rangers are sent to patrol the wrong areas, and sharing of data with poachers may lead to them avoiding an area so they are not caught.
