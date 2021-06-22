@@ -26,6 +26,8 @@ Our gunshot detection system can help to achieve these sustainability goals.
 
 ## Environmental
 
+### Prevention to sustain the rainforest
+
 Forest elephants are known as the architects of the rainforest, they have a unique lifestyle and is adapted to living in dense vegetation such as the forest. They depend on fruits found in the forest and they disperse seeds all around the forest.
 
 The poaching of these forest elephants directly impact on the rainforest. Poaching these elephants means that there is a reduce in the amount of seed dispersion, essentially preventing the diverse nature of rainforests and the spread of fruits and plants across the forest in which many animals depend on. 
@@ -36,4 +38,26 @@ They play an important role in balancing natural ecosystems. They trample forest
 
 Using our system helping to find these poachers and stop them will have a significant impact on the environment to help protect the rainforest ecosystem. In order to keep the rainforest diverse, poaching of elephants must slow down, and eventually stop.
 
+### Usage of sensors
+
+Once our client deploys our system on devices of their choice, the build of these devices should be environmentally/contextually friendly. The reason for this being that the device should fit in with the environment and ecosystem, not disrupt. Disruption could be things such as being in the way of animals or birds, causing harm to animals or birds or the environment such as trees and plants.
+
+They should also last a long time and/or be reusable.
+
 ## Economic
+
+From an economic sustainability point of view, the cost of running our system, whether it be at the lab or on the field must be viable.
+
+### In the lab
+
+#### Locally
+
+Our system can be run on any device with a GPU, and if running shorter clips it can be run on a CPU. The electricity costs for this is the main economic factor for running our system as well as the purchasing of stronger hardware if need be, which is high initial fees. This would be economically stable if you are running the system a lot for data collection.
+
+#### On the cloud
+
+Running our system on the cloud would mean that the intial fees and electricity costs are not a factor, but only the pay as you go cost of running the model. This is an economically sustainable method since oyu only pay for what you use. 
+
+### On the field
+
+Deploying our system on devices in the field would have high initial costs. Since our system can be used from the go, it does not have any software upkeep costs and therefore all the costs would be the actual deployed devices. It would be economically viable if the amount of maintenance isn't too costly, for example battery changes of the devices.
