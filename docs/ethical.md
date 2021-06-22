@@ -57,3 +57,13 @@ Since the activity of these poachers is illegal, if caught the poachers would en
 ### Sensors
 
 If our system is deployed on IoT devices, we have to make sure to use ethical sensors that do not disrupt the natural rainforest environment and birds nests. Some devices may get hot under increased load, and therefore it is important to make sure this does not hurt animals or cause a fire. Also, if found by an animal the device must not cause damage to the animal, if say, the animal consumed parts of the device.
+
+### Users of the system
+
+The users of the system are the ones responsible for the data collection and reporting of gunshots. This can be used in a unethical way, which could include:
+
+- Destroying data
+- Changing data
+- Sharing data
+
+It is up to the user to use the system ethically, since unethical use of our system can cause the problem of poaching to get even worse, since the changing of data may mean that rangers are sent to patrol the wrong areas, and sharing of data with poachers may lead to them avoiding an area so they are not caught.
