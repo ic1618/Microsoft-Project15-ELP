@@ -30,12 +30,10 @@ Forest elephants are known as the architects of the rainforest, they have a uniq
 
 The poaching of these forest elephants directly impact on the rainforest. Poaching these elephants means that there is a reduce in the amount of seed dispersion, essentially preventing the diverse nature of rainforests and the spread of fruits and plants across the forest in which many animals depend on. 
 
-They play an important role in balancing natural ecosystems. They trample forests and dense grasslands, making room for smaller species to co-exist. Elephants also create water holes used by other wildlife as they dig dry riverbeds when rainfall is low. Read more [here](https://www.awf.org/blog/elephants-are-pillars-africas-ecosystems-and-they-need-our-support)
+They play an important role in balancing natural ecosystems. They trample forests and dense grasslands, making room for smaller species to co-exist. Elephants also create water holes used by other wildlife as they dig dry riverbeds when rainfall is low. Read more [here.](https://www.awf.org/blog/elephants-are-pillars-africas-ecosystems-and-they-need-our-support)
 
 > "Without intervention to stop poaching, as much as 96 percent of Central Africa's forests will undergo major changes in tree-species composition and structure as local populations of elephants are extirpated, and surviving populations are crowded into ever-smaller forest remnants," explained John Poulson from Duke University’s Nicholas School of the Environment, the lead author of the study.
 
-Helping to find these poachers and stop them will have a significant impact on the environment to help protect the rainforest ecosystem. In order to keep the rainforest diverse, poaching of elephants must slow down, and eventually stop.
-
-
+Using our system helping to find these poachers and stop them will have a significant impact on the environment to help protect the rainforest ecosystem. In order to keep the rainforest diverse, poaching of elephants must slow down, and eventually stop.
 
 ## Economic
