@@ -10,9 +10,6 @@
 ### Code
 - https://github.com/yz-mm/YOLOV4
 
-### Download (please download model from here, do not clone from github)
-- link
-
 ## Faster-RCNN
 
 ### Code
