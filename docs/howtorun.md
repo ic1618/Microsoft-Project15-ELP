@@ -51,6 +51,9 @@ Now we are ready to run the detector:
 > There may be warning messages, it is OK to ignore them! They are mainly to do with version control and future usage of some of the python libraries.
 
 ### For Faster-RCNN 
+
+If you would like to change the threshold, simply go into the detect.py file and change the variable 'bbox_threshold = 0.9' to 'bbox_threshold = x.xx', the value must be between 0 and 1.
+
 ```
 python detect.py
 ```
