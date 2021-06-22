@@ -52,7 +52,7 @@ Now we are ready to run the detector:
 
 ### For Faster-RCNN 
 
-If you would like to change the threshold, simply go into the detect.py file and change the variable 'bbox_threshold = 0.9' to 'bbox_threshold = x.xx', the value must be between 0 and 1.
+If you would like to change the threshold, simply go into the detect.py file and change the variable 'bbox_threshold = 0.90' to 'bbox_threshold = x.xx', the value must be between 0 and 1.
 
 ```
 python detect.py
