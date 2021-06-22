@@ -100,7 +100,7 @@ Azure ML studio also provided us with a Data Labelling service where we could la
 The Custom Vision model is the simplest model of the three to train. We did this by using [Azure Custom Vision](https://customvision.ai), it allowed us to upload images, label the images and train models with no code at all!
 
 ### Yolov4
-👷‍♂️
+https://github.com/yz-mm/YOLOV4
 
 ### Faster-RCNN
-👷‍♂️
+https://github.com/jiaming3/microsoft-gunshot-faster-rcnn
