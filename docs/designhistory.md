@@ -99,20 +99,20 @@ Azure ML studio also provided us with a Data Labelling service where we could la
 
 The Custom Vision model is the simplest model of the three to train. We did this by using [Azure Custom Vision](https://customvision.ai), it allowed us to upload images, label the images and train models with no code at all!
 
-Custom Vision is a part of the Azure Cognitive Services provided by Microsoft which is used for training different machine learning models in order to perform object detction. This service provides us with an efficient method of labelling the sound shapes("the objects") for training models that can detect gunshot sound shapes in a spectogram.
+Custom Vision is a part of the Azure Cognitive Services provided by Microsoft which is used for training different machine learning models in order to perform image classification and object detection. This service provides us with an efficient method of labelling our sound events ("the objects") for training models that can detect gunshot sound events in a spectogram.
 
 <img src="assets/cv-label.png" alt="Labelling" width="600"/>
 
-First, we have to upload a set of images which will represent our dataset and tag them creating a bounding box around the sound shape("around the object"). Once the labelling is done, the dataset has to be trained. The model will be trained in the cloud so no coding is needed in the training process. The only feature that we have to adjust when we train the model is the time budget spent. A larger time budget allowed means better learning. However, when the model cannot be improved anymore, the training will stop even though there is still some time left.
+First, we have to upload a set of images which will represent our dataset and tag them by creating a bounding box around the sound event ("around the object"). Once the labelling is done, the dataset is used for training. The model will be trained in the cloud so no coding is needed in the training process. The only feature that we have to adjust when we train the model is the time spent on training. A longer time budget allowed means better learning. However, when the model cannot be improved anymore, the training will stop even if assigned a longer time.
 
 <p float="left">
   <img src="assets/cv-training-options.png" alt="Training time" width="400" />
   <img src="assets/cv-precision-recall-charts.png" alt="Charts" width="400" />
 </p>
 
-The service provides us with some charts for model's precision and recall. By adjusting the probability threshold and the overlap threshold of our model we can see how the precision and recall evolves. This is helpful when trying to find the optimal probability threshold for detecting the gunshots.
+The service provides us with some charts for the model's precision and recall. By adjusting the probability threshold and the overlap threshold of our model we can see how the precision and recall changes. This is helpful when trying to find the optimal probability threshold for detecting the gunshots.
 
-The final model can be exported as a zip file on the local environment for personal use. The zip file contains two python files for object detection, a pb file that contains the model, a json file with metadata properties and some txt files. Some other files were added besides the standard package provided. The sound files are preprocessed inside the predict.py file and it extracts the audio files from the sounds folder and it exports labelled pictures with the identified gunshots in cache/images folder. The detected_csv file that will be generated includes all the gunshots detected.
+The final model can be exported for many uses, in many formats. We use the Tensorflow model. The system contains two python files for object detection, a pb file that contains the model, a json file with metadata properties and some txt files. We adapted the system from the standard package provided. The sound files are preprocessed inside the predict.py file and it extracts the audio files from the sounds folder and it exports labelled pictures with the identified gunshots in cache/images folder. It then does inference on the spectrogram to detect gunshots. Once all the soundfiles have been checked a CSV is generated with the start and end times of the gunshots detected within the audio.
 
 ### Yolov4
 https://github.com/yz-mm/YOLOV4
