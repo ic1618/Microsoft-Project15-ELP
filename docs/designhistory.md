@@ -99,6 +99,14 @@ Azure ML studio also provided us with a Data Labelling service where we could la
 
 The Custom Vision model is the simplest model of the three to train. We did this by using [Azure Custom Vision](https://customvision.ai), it allowed us to upload images, label the images and train models with no code at all!
 
+Custom Vision is a part of the Azure Cognitive Services provided by Microsoft which is used for training different machine learning models in order to perform object detction. This service provides us with an efficient method of labelling the sound shapes("the objects") for training models that can detect gunshot sound shapes in a spectogram.
+
+First, we have to upload a set of images which will represent our dataset and tag them creating a bounding box around the sound shape("around the object"). Once the labelling is done, the dataset has to be trained. The model will be trained in the cloud so no coding is needed in the training process. The only feature that we have to adjust when we train the model is the time budget spent. A larger time budget allowed means better learning. However, when the model cannot be improved anymore, the training will stop even though there is still some time left.
+
+The service provides us with some charts for model's precision and recall. By adjusting the probability threshold and the overlap threshold of our model we can see how the precision and recall evolves. This is helpful when trying to find the optimal probability threshold for detecting the gunshots.
+
+The final model can be exported as a zip file on the local environment for personal use. The zip file contains two python files for object detection, a pb file that contains the model, a json file with metadata properties and some txt files. Some other files were added besides the standard package provided. The sound files are preprocessed inside the predict.py file and it extracts the audio files from the sounds folder and it exports labelled pictures with the identified gunshots in cache/images folder. The detected_csv file that will be generated includes all the gunshots detected.
+
 ### Yolov4
 https://github.com/yz-mm/YOLOV4
 
@@ -139,18 +147,7 @@ The model also provide classification between different gunshot which are AK-47 
 ![gunshot1](https://user-images.githubusercontent.com/60019124/122781978-e583e400-d2e2-11eb-9d50-364dc6245e09.png)
 Figure3. Mel-spectrum image of AK-47 and shotgun
 
-
-#### result
-
-The following testing result shown in Table1 is based on the experiment on over 400 hours forest sound clips given by our clients. The more detailed information on other models except Faster-Rcnn can be found in https://r15hil.github.io/ICL-Project15-ELP/.  
-
-| Model name                   | current template detector | custom AI(Microsoft) | YOLOV4 | Faster-Rcnn |
-|------------------------------|---------------------------|----------------------|--------|-------------|
-| Gunshot dectection precision | 0.5%                      | 60%                  | 85%    | 95%         |
-
-Table1. testing result from different models
-
-The model also generate csv file shown in Figure4.It include the file name, label, offset, start time and end time. The offset is the left end axis of the mel-spectrum, where each mel-spectrum is coducted from 12s sound clips. The start time and end time can then caculated using the offset and the detection bounding coordinate. Therefore, this csv file would provide more standard dataset, where true location will more likely sit just before the gunshot happen. Each cutting sound clip are likely to include single gunshot. Therefore, this dataset would involve less noise and wrong labelling. It will benefit for future development on any audio classification method. 
+The model also generate csv file shown in Figure4. It include the file name, label, offset, start time and end time. The offset is the left end axis of the mel-spectrum, where each mel-spectrum is coducted from 12s sound clips. The start time and end time can then caculated using the offset and the detection bounding coordinate. Therefore, this csv file would provide more standard dataset, where true location will more likely sit just before the gunshot happen. Each cutting sound clip are likely to include single gunshot. Therefore, this dataset would involve less noise and wrong labelling. It will benefit for future development on any audio classification method. 
 ![image](https://user-images.githubusercontent.com/60019124/122941913-635df300-d3a8-11eb-994f-3e9db29deb4c.png)
 
 Figure4. example of csv file for gunshot labelling  
@@ -164,7 +161,15 @@ The number of hard negative dataset are still limited after 400 hours sound clip
 Figure5. Mel-spectrum image of strong thunder and bee
 
 
+## Results
 
+
+
+| Model name                   | current template detector | custom AI(Microsoft) | YOLOV4 | Faster-Rcnn |
+|------------------------------|---------------------------|----------------------|--------|-------------|
+| Gunshot dectection precision | 0.5%                      | 60%                  | 85%    | 95%         |
+
+Table1. testing result from different models
 
 
 
