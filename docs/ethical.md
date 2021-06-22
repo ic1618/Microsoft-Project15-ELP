@@ -48,7 +48,7 @@ The act of poaching elephants is illegal. [The ban on international trade was in
 
 ### Rangers
 
-A key consequene of our system is that once deployed in the field the national park rangers will be notified when there has been a gunshot and what acoustic recorders/microphones have picked this gunshot up. This means that rangers are putting their lives at risk to catch these poachers who are armed with lethal weapons. From an ethical perspective we have to think about the safety of the rangers, and therefore any rangers or helicopters sent in to catch poachers, from information used by our system must be informed and fully trained to do so, this means that we can ensure safety and not putting anyones life at risk. 
+A key consequence of our system is that once deployed in the field the national park rangers will be notified when there has been a gunshot and what acoustic recorders/microphones have picked this gunshot up. This means that rangers are putting their lives at risk to catch these poachers who are armed with lethal weapons. From an ethical perspective we have to think about the safety of the rangers, and therefore any rangers or helicopters sent in to catch poachers, from information used by our system must be informed and fully trained to do so, this means that we can ensure safety and not putting anyones life at risk. 
 
 ### Poachers
 
