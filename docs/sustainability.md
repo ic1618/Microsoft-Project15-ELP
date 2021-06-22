@@ -6,7 +6,7 @@ Sustainability [means meeting our own needs without compromising the ability of 
 
 ## Social
 
-[Poaching can be defined as illegally killing wildlife or any animal for food, pleasure, ivory, fur or more. One main reason that people poach animals is for rare products, such as ivory and fur.](https://https://www.4elephants.org/blog/article/why-elephants-are-poached)
+[Poaching can be defined as illegally killing wildlife or any animal for food, pleasure, ivory, fur or more. One main reason that people poach animals is for rare products, such as ivory and fur.](https://www.4elephants.org/blog/article/why-elephants-are-poached)
 
 
 
