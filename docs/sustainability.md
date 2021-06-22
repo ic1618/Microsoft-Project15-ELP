@@ -28,7 +28,10 @@ Our gunshot detection system can help to achieve these sustainability goals.
 
 Forest elephants are known as the architects of the rainforest, they have a unique lifestyle and is adapted to living in dense vegetation such as the forest. They depend on fruits found in the forest and they disperse seeds all around the forest.
 
-The poaching of these forest elephants directly impact on the rainforest. Poaching these elephants means that there is a reduce in the amount of seed dispersion, essentially preventing the diverse nature of rainforests. 
+The poaching of these forest elephants directly impact on the rainforest. Poaching these elephants means that there is a reduce in the amount of seed dispersion, essentially preventing the diverse nature of rainforests and the spread of fruits and plants across the forest in which many animals depend on. 
+
 > "Without intervention to stop poaching, as much as 96 percent of Central Africa's forests will undergo major changes in tree-species composition and structure as local populations of elephants are extirpated, and surviving populations are crowded into ever-smaller forest remnants," explained John Poulson from Duke University’s Nicholas School of the Environment, the lead author of the study.
+
+Helping to find these poachers and stop them will have a significant impact on the environment to help protect the rainforest ecosystem. In order to keep the rainforest diverse, poaching of elephants must slow down, and eventually stop.
 
 ## Economic
