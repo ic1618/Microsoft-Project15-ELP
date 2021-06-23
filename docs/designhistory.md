@@ -179,7 +179,7 @@ The above conditions challenge audio classification methods like MFCC with CNN. 
 tensorflow 1.13-gpu (CUDA 10.0)\
 keras 2.1.5\
 h5py  2.10.0
-model: retrain.hdf5 can be download from [here](https://drive.google.com/drive/folders/1AswdCXlv3cxjgTwge2dIbkBxJv8ztLMF?usp=sharing)
+model: retrain.hdf5 can be download from [here.](https://drive.google.com/drive/folders/1AswdCXlv3cxjgTwge2dIbkBxJv8ztLMF?usp=sharing)
 
 The more detailed tutorial on setting up can be found [here.](https://r15hil.github.io/ICL-Project15-ELP/gettingstarted.html)
 
