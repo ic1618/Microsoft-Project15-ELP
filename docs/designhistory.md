@@ -178,7 +178,7 @@ tensorflow 1.13-gpu (CUDA 10.0)\
 keras 2.1.5\
 h5py  2.10.0
 
-The more detailed tutorial on setting up can be found on https://r15hil.github.io/ICL-Project15-ELP/gettingstarted.html.
+The more detailed tutorial on setting up can be found on [Getting Started](gettingstarted.md)
 
 ####  Pre-trained mode
 
