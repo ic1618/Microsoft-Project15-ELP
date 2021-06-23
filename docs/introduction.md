@@ -1,6 +1,6 @@
 [__Back to home__](index.md)
 
-# Template Page
+# Introduction
 
 ## Title
 
