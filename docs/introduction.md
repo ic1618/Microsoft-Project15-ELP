@@ -2,8 +2,6 @@
 
 # Introduction
 
-Meet with Client for full briefing on project, context and expectations - Project 15: Microsoft
-
 The Elephant Listening Project (ELP) began in 2000, our client Peter Howard Wrege took over in 2007 as director https://elephantlisteningproject.org/.
 
 ELP focuses on helping protect one of three types of elephants, the forest elephant which 
