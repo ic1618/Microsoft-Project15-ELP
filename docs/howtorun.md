@@ -22,7 +22,7 @@ You should have the folders below:
 
 <img src="assets/folders.png" alt="Folders" width="400"/>
 
-If you downloaded the file from GitHub, rather than drive, download [this file](https://drive.google.com/drive/folders/1AswdCXlv3cxjgTwge2dIbkBxJv8ztLMF?usp=sharing) and place it in the 'dataset' folder.
+If you downloaded the detector from GitHub, rather than drive, download [this file](https://drive.google.com/drive/folders/1AswdCXlv3cxjgTwge2dIbkBxJv8ztLMF?usp=sharing) and place it in the 'dataset' folder. If you having problems with this, just directly download the model from drive [here.](https://drive.google.com/drive/folders/14zVEjr4lzfFRlvO-5OPjV9ZKryxzValS?usp=sharing)
 
 ### For Yolov4
 
