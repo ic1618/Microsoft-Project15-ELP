@@ -5,10 +5,10 @@
     print("Microsoft Project 15 x Imperial College London")
 ```
 
-* [__Getting Started__](gettingstarted.md) ✔ needs checking
-* [__How to run__](howtorun.md) ✔ needs checking
-* [__Design History__](designhistory.md) ✔ needs checking
-* [__Meeting Minutes__](meetingminutes.md) ✔ needs checking
-* [__Ethical consequences__](ethical.md) ✔ needs checking
-* [__Sustainability Report__](sustainability.md) ✔ needs checking
-* [__Code and resources used__](coderesources.md) ✔ needs checking, any more?
+* [__Getting Started__](gettingstarted.md) 
+* [__How to run__](howtorun.md) 
+* [__Design History__](designhistory.md) 
+* [__Meeting Minutes__](meetingminutes.md) 
+* [__Ethical consequences__](ethical.md) 
+* [__Sustainability Report__](sustainability.md) 
+* [__Code and resources used__](coderesources.md) 
