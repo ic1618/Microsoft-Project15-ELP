@@ -133,13 +133,13 @@ In order to train the model, the first step we need to do is loading the trainin
 
 Then run voc_annotations file to save the information of training data into a .txt file. Remember to modify the classes list in line 14 before operating the file.
 
-<img src="assets/ima1.jpg" width=75% height=75%>
+<img src="assets/ima1.jpg" width="600"/>
 
 ##### 2. Train the Model
 
 The train.py file is used to train the model. Before running the file, make sure the following file paths are correct.
 
-<img src="assets/ima2.jpg" width=65% height=65%>
+<img src="assets/ima2.jpg" width="600"/>
 
 ##### 3. Test
 
