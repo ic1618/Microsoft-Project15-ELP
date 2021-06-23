@@ -1,4 +1,4 @@
-# Project 15: Elephant Listening Project - Gunshot Detection Documentation 👷‍♂️UNDER CONSTRUCTION👷‍♀️
+# Project 15: Elephant Listening Project - Gunshot Detection Documentation
 
 ```python
   def save_elephants():
