@@ -15,7 +15,7 @@
 ### Code
 - https://github.com/jiaming3/microsoft-gunshot-faster-rcnn/tree/main/gunshot-fasterrcnn/Keras-Tensorflow-FasterRCNN
 
-### Download (please download model from here, do not clone from github)
+### Direct Download
 - https://drive.google.com/drive/folders/14zVEjr4lzfFRlvO-5OPjV9ZKryxzValS?usp=sharing
 
 ## Research
