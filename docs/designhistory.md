@@ -207,6 +207,7 @@ The following testing result shown in Table1 is based on the experiment on over 
 Table1. testing result from different models
 
 The model also generates a CSV file shown in Figure4. It includes the file name, label, offset, start time, and end time. The offset is the left end axis of the Mel-spectrum, where each Mel-spectrum is conducted from 12s sound clips. The start time and end time can then calculated using the offset and the detection bounding coordinate. Therefore, this CSV file would provide a more standard dataset, where the true location will more likely sit just before the gunshot happen. Each cutting sound clip is likely to include a single gunshot. Therefore, this dataset would involve less noise and wrong labeling. It will benefit future development on any audio classification method. 
+
 ![image](https://user-images.githubusercontent.com/60019124/122941913-635df300-d3a8-11eb-994f-3e9db29deb4c.png)
 
 Figure4. example of csv file for gunshot labelling  
