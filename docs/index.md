@@ -7,7 +7,7 @@
 
 * [__Getting Started__](gettingstarted.md) ✔ needs checking
 * [__How to run__](howtorun.md) ✔ needs checking
-* [__Design History__](designhistory.md) 👷‍♂️ need to do "Build" section
+* [__Design History__](designhistory.md) ✔ needs checking
 * [__Meeting Minutes__](meetingminutes.md) ✔ needs checking
 * [__Ethical consequences__](ethical.md) ✔ needs checking
 * [__Sustainability Report__](sustainability.md) ✔ needs checking
