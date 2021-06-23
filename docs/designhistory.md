@@ -143,8 +143,7 @@ The train.py file is used to train the model. Before running the file, make sure
 
 ##### 3. Test
 
-For more detailed testing tutorial, please check the below link :
-https://r15hil.github.io/ICL-Project15-ELP/howtorun.html
+For more detailed testing tutorial, follow [How to run](howtorun.md)
 
 #### More Explanations
 
