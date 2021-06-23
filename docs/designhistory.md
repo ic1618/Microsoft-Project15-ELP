@@ -115,7 +115,7 @@ The service provides us with some charts for the model's precision and recall. B
 The final model can be exported for many uses, in many formats. We use the Tensorflow model. The system contains two python files for object detection, a pb file that contains the model, a json file with metadata properties and some txt files. We adapted the system from the standard package provided. The sound files are preprocessed inside the predict.py file and it extracts the audio files from the sounds folder and it exports labelled pictures with the identified gunshots in cache/images folder. It then does inference on the spectrogram to detect gunshots. Once all the soundfiles have been checked a CSV is generated with the start and end times of the gunshots detected within the audio.
 
 ### Yolov4
-https://github.com/yz-mm/YOLOV4
+
 #### Introduction
 
 The full name of *YOLOV4* is *YOU ONLY LOOK ONCE*. It is an object detector which consists of a bunch of deep learning techniques and completely based on Convolutional Neural Network(CNN). The primary advantages of YOLOv4 compared to the other object detector are the fast speed and relatively high precision. 
