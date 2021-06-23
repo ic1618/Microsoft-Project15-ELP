@@ -22,6 +22,8 @@ You should have the folders below:
 
 <img src="assets/folders.png" alt="Folders" width="400"/>
 
+If you downloaded the file from GitHub, rather than drive, download [this file](https://drive.google.com/drive/folders/1AswdCXlv3cxjgTwge2dIbkBxJv8ztLMF?usp=sharing) and place it in the 'dataset' folder.
+
 ### For Yolov4
 
 You should have the folders below:
