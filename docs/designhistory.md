@@ -196,7 +196,7 @@ The model also provides classification between different gunshot which are AK-47
 Figure3. Mel-spectrum image of AK-47 and shotgun
 
 
-#### result
+#### Result
 
 The following testing result shown in Table1 is based on the experiment on over 400 hours of forest sound clips given by our clients. The more detailed information on other models except Faster-Rcnn can be found in https://r15hil.github.io/ICL-Project15-ELP/.  
 
@@ -211,7 +211,7 @@ The model also generates a CSV file shown in Figure4. It includes the file name,
 
 Figure4. example of csv file for gunshot labelling  
 
-#### current model weakness and Future developement
+#### Current model weaknesses and Future developement
 
 The number of the hard negative dataset is still limited after 400 hours of sound clip testing. Hard negatives like the bee and strong thunder sound(shown in Figure5) are the main predicted errors for the current model. To improve the model further, it should find more hard negatives using a lower threshold of the network through thousands of hours of sound clip testing. Then, the obtained hard negative dataset can be used to re-train and improve the model. However, the current model can avoid those false positives by setting around a 0.98 threshold value, but it will reduce the recall rate by 5-10%. The missing gunshots are mainly long-distance gunshots. This is also caused by very limited long-distance gunshots provided in the training dataset.
 
