@@ -91,6 +91,9 @@ All three detectors produce output spectrogram images along with a CSV files of 
 
 ## Confirming proper operation
 
-If the detector is working correctly, once it has finished running, all detected gunshots will be outputted in the corresponding folder. It should also generate a CSV file with a log of all the gunshots. Also, during operation if you see text like in the image below, this confirms the sound files are being read with no issues.
-
+If the detector is working correctly, once it has finished running, all detected gunshots will be outputted in the corresponding folder. It should also generate a CSV file with a log of all the gunshots.
+<img src="assets/csv.png" alt="CSV"/>
+Also, during operation if you see text like in the image below, this confirms the sound files are being read with no issues.
 <img src="assets/loaded.png" alt="Loaded"/>
+
+
