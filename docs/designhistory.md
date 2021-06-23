@@ -235,7 +235,7 @@ https://github.com/yhenon/keras-rcnn
 Table1. testing result from different models
 
 
-
+<img src="assets/table.png" alt="Table"/>
  
 
 
