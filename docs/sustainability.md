@@ -42,7 +42,7 @@ Using our system helping to find these poachers and stop them will have a signif
 
 Once our client deploys our system on devices of their choice, the build of these devices should be environmentally/contextually friendly. The reason for this being that the device should fit in with the environment and ecosystem, not disrupt. Disruption could be things such as being in the way of animals or birds, causing harm to animals or birds or the environment such as trees and plants.
 
-They should also last a long time and/or be reusable.
+They should also last a long time and/or be reusable in order to reduce wastage. Rechargable batteries can be used in deployment which will significantly reduce wastage and slows down the use of the Earth's metals and minerals.
 
 ## Economic
 
