@@ -91,7 +91,7 @@ In order to store all of our sound files, we used blob storages on Azure. This m
 
 #### Data labelling
 
-Azure ML studio also provided us with a Data Labelling service where we could label our Mel-spectrograms for gunshots and build our dataset to train our object detection models. These object detection models (Yolov4 and Faster-RCNN) use XML files in training, Azure ML studio allows us to export our labelled data in a  COCO format in a JSON file. The conversion from COCO to the XML format we needed to train our models was done with ease.
+Azure ML studio also provided us with a Data Labelling service where we could label our Mel-spectrograms for gunshots and build our dataset to train our object detection models. These object detection models (Yolov4 and Faster R-CNN ) use XML files in training, Azure ML studio allows us to export our labelled data in a  COCO format in a JSON file. The conversion from COCO to the XML format we needed to train our models was done with ease.
 
 <img src="assets/labelling.png" alt="Data Labelling" width="800"/>
 
@@ -147,32 +147,32 @@ For more detailed testing tutorial, follow [How to run](howtorun.md)
 
 #### More Explanations
 
-The idea of using YOLOV4 is after training and testing faster r-cnn method. Faster r-cnn model achieves 95%-98% precision on gunshot detection which is extraordinarily improved compared to the current detector. The training data for YOLOV4 model is totally same with that used in the faster r-cnn model. Therefore, in this document, the detection results of YOLOV4 will not be the main points to talk about. Briefly speaking, the YOLOV4 can achieve 85% precision but detect the events with lower probability than faster r-cnn.
+The idea of using YOLOV4 is after training and testing Faster R-CNN  method. Faster R-CNN  model achieves 95%-98% precision on gunshot detection which is extraordinarily improved compared to the current detector. The training data for YOLOV4 model is totally same with that used in the Faster R-CNN  model. Therefore, in this document, the detection results of YOLOV4 will not be the main points to talk about. Briefly speaking, the YOLOV4 can achieve 85% precision but detect the events with lower probability than Faster R-CNN .
 
 <p float="left">
   <img src="assets/img.jpgdetected_tir1100m_20180426_092825.wav_1560.0.png" width="400" />
   <img src="assets/imgtree3_20180517_000000.wav7416000.png" width="400" />
 </p>
 
-The reason why we still build YOLOV4 model is that it can make our clients to have diversified options and choose the most appropriate proposal in the real application condition.  Even though faster r-cnn model has the best detection performance, the disadvantage is obvious which is its operation time. In the case of similar GPU, the faster r-cnn needs 100 minutes to process 24 hours audio file while YOLOV4 only takes 44 minutes to do the same work.
+The reason why we still build YOLOV4 model is that it can make our clients to have diversified options and choose the most appropriate proposal in the real application condition.  Even though Faster R-CNN  model has the best detection performance, the disadvantage is obvious which is its operation time. In the case of similar GPU, the Faster R-CNN  needs 100 minutes to process 24 hours audio file while YOLOV4 only takes 44 minutes to do the same work.
 
 
 
-### Faster-RCNN
+### Faster R-CNN 
 
 #### Introduction
 
 ![gunshot](https://user-images.githubusercontent.com/60019124/122730222-928f3a00-d2ac-11eb-8be5-5056a007b914.png)
              Figure1. Gunshot and some example sounds that cause errors for the current detectors 
 
-The Faster-Rcnn code provided above is used to tackle the gunshot detection problem of Microsoft project 15. (see [Project 15](https://www.youtube.com/watch?v=0A4B2RIWb9o) and [Documentation](https://r15hil.github.io/ICL-Project15-ELP/)). The gunshot detection is solved by object detection method instead of any audio classification network method under certain conditions. 
+The Faster R-CNN  code provided above is used to tackle the gunshot detection problem of Microsoft project 15. (see [Project 15](https://www.youtube.com/watch?v=0A4B2RIWb9o) and [Documentation](https://r15hil.github.io/ICL-Project15-ELP/)). The gunshot detection is solved by object detection method instead of any audio classification network method under certain conditions. 
 
 1. The Limited number of forest gunshot datasets given with random labeled true location, which generally require 12s to involve single or multi gunshot in the extracted sound clip. The random label means that the true location provided is not the exact location of the start of the gunshot. Gunshot may happen after the given true location in the range of one to twelve 12 seconds. The number of gunshots after true location also ranging from single gunshots over to 30 gunshots.
 2. We do not have enough time for manually relabelling the audio dataset and limited knowledge to identify gunshots from any other similar sounds in the forest. In some case, even gunshot expert find difficulty to identify gunshot from those similar forest sound. e.g., tree branch.
 3. Forest gunshots shoot at different angles and may shoot from miles. Online gunshot dataset would not implement to this task directly.
 4. Current detector used in the forest has only 0.5% precision. It will peak up sound like raindrop and thunder shown in Figure1. Detection needs long manual post-processing time. Hence, the given audio dataset would be limited and involve mistakes. 
 
-The above conditions challenge audio classification methods like MFCC with CNN. Hence, the objection detection method provides an easier approach under a limited time. Object detection provides faster labeling through Mel-spectrum images, which are shown above. Mel spectrum also provides an easy path to identify gunshots without the specialty of gunshot audio sound. The Faster-Rcnn model provides high precision 95%-98% on gunshot detection. The detection bounding box can also be used to re-calculate both the start and end times of the gunshot. This reduces manual post-processing time from 20 days to less than an hour. A more standard dataset also be generated for any audio classification algorithm in future development.
+The above conditions challenge audio classification methods like MFCC with CNN. Hence, the objection detection method provides an easier approach under a limited time. Object detection provides faster labeling through Mel-spectrum images, which are shown above. Mel spectrum also provides an easy path to identify gunshots without the specialty of gunshot audio sound. The Faster R-CNN  model provides high precision 95%-98% on gunshot detection. The detection bounding box can also be used to re-calculate both the start and end times of the gunshot. This reduces manual post-processing time from 20 days to less than an hour. A more standard dataset also be generated for any audio classification algorithm in future development.
 
 #### Set up
 
@@ -198,9 +198,9 @@ Figure3. Mel-spectrum image of AK-47 and shotgun
 
 #### Result
 
-The following testing result shown in Table1 is based on the experiment on over 400 hours of forest sound clips given by our clients. The more detailed information on other models except Faster-Rcnn can be found in https://r15hil.github.io/ICL-Project15-ELP/.  
+The following testing result shown in Table1 is based on the experiment on over 400 hours of forest sound clips given by our clients. The more detailed information on other models except Faster R-CNN  can be found in https://r15hil.github.io/ICL-Project15-ELP/.  
 
-| Model name                   | current template detector | custom AI(Microsoft) | YOLOV4 | Faster-Rcnn |
+| Model name                   | current template detector | custom AI(Microsoft) | YOLOV4 | Faster R-CNN  |
 |------------------------------|---------------------------|----------------------|--------|-------------|
 | Gunshot dectection precision | 0.5%                      | 60%                  | 85%    | 95%         |
 
@@ -229,7 +229,7 @@ https://github.com/yhenon/keras-rcnn
 
 
 
-| Model name                   | current template detector | custom AI(Microsoft) | YOLOV4 | Faster-Rcnn |
+| Model name                   | current template detector | custom AI(Microsoft) | YOLOV4 | Faster R-CNN  |
 |------------------------------|---------------------------|----------------------|--------|-------------|
 | Gunshot dectection precision | 0.5%                      | 60%                  | 85%    | 95%         |
 

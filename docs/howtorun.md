@@ -42,7 +42,7 @@ Create a folder called 'images' in the 'cache' folder.
 
 ## Running the detector
 
-When running the detector, you need to make sure you are in the correct environment on your Anaconda Prompt, which can be seen in the brackets, i.e if running Yolov4 or Faster-RCNN you need to be in (TF1env), and for Custom Vision (TF2env). If not then simply activate the environment using 'conda activate TF1env' or 'conda activate TF2env'.
+When running the detector, you need to make sure you are in the correct environment on your Anaconda Prompt, which can be seen in the brackets, i.e if running Yolov4 or Faster R-CNN  you need to be in (TF1env), and for Custom Vision (TF2env). If not then simply activate the environment using 'conda activate TF1env' or 'conda activate TF2env'.
 
 Please refer to ["Creating an anaconda environment"](gettingstarted.md#Creating-an-Anaconda-virtual-environment) if you are unaware of what this means. 
 
@@ -56,7 +56,7 @@ Now we are ready to run the detector:
 
 > There may be warning messages, it is OK to ignore them! They are mainly to do with version control and future usage of some of the python libraries.
 
-### For Faster-RCNN 
+### For Faster R-CNN  
 
 If you would like to change the threshold, simply go into the detect.py file and change the variable 'bbox_threshold = 0.90' to 'bbox_threshold = x.xx', the value must be between 0 and 1.
 
@@ -84,7 +84,7 @@ All three detectors produce output spectrogram images along with a CSV files of 
 
 ### Tagged images
 
-#### For Faster-RCNN 
+#### For Faster R-CNN  
 > dataset\detected
 
 #### For Yolov4

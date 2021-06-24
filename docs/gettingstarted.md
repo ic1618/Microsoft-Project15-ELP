@@ -17,7 +17,7 @@ Launch the Anaconda Prompt once you have Anaconda installed.
 </p>
 
 In the Anaconda prompt terminal, execute the following command to create a virtual environment, depending on which models you want to run. You only need to do this process once!
-#### For Yolov4 or Faster-RCNN model
+#### For Yolov4 or Faster R-CNN  model
 ```
 conda create -n TF1env python=3.7
 ```
@@ -27,7 +27,7 @@ conda activate TF1env
 ```
 and you will see (base) change to (TF1env). 
 
-You are now in the virtual environment in which to [install the necessary python libraries for Yolov4 or Faster-RCNN](#Python-Dependency-installation-for-Yolov4-or-Faster-RCNN).
+You are now in the virtual environment in which to [install the necessary python libraries for Yolov4 or Faster R-CNN ](#Python-Dependency-installation-for-Yolov4-or-Faster-R-CNN).
 #### For Custom Vision model
 ```
 conda create -n TF2env python=3.7
@@ -38,12 +38,12 @@ conda activate TF2env
 ```
 and you will see (base) change to (TF2env). 
 
-You are now in the virtual environment in which to [install the necessary python libraries for Custom Vision](#Python-Dependency-installation-for-Yolov4-or-Faster-RCNN).
+You are now in the virtual environment in which to [install the necessary python libraries for Custom Vision](#Python-Dependency-installation-for-Yolov4-or-Faster-R-CNN ).
 
 
-### Python Dependency installation for Yolov4 or Faster-RCNN
+### Python Dependency installation for Yolov4 or Faster R-CNN 
 
-We now need to install all the packages needed to make sure the system works as intended, this means installing the correct versions of packages used when developing the system. Luckily, this is a very simple process of commands. Please ensure you are in your virtual environment by checking for (TF1env), if you see (base) then please refer to the last code block of ["For Yolov4 or Faster-RCNN model"](#For-Yolov4-or-Faster-RCNN-model) to activate the environment.
+We now need to install all the packages needed to make sure the system works as intended, this means installing the correct versions of packages used when developing the system. Luckily, this is a very simple process of commands. Please ensure you are in your virtual environment by checking for (TF1env), if you see (base) then please refer to the last code block of ["For Yolov4 or Faster R-CNN  model"](#For-Yolov4-or-Faster-RCNN-model) to activate the environment.
 
 To install the packages needed, run the following commands:
 ```
@@ -75,7 +75,7 @@ pip install opencv-python
 pip install ffmpeg
 pip install ffprobe
 ```
-## CUDA, cuDNN installation for Yolov4 and Faster-RCNN (Ignore if not using GPU)
+## CUDA, cuDNN installation for Yolov4 and Faster R-CNN  (Ignore if not using GPU)
 To run these models on GPU, you need to have exact versions of CUDA and cudnn installed. This allows for machine learning inference to take place on your GPU, rather than CPU. Running this inference on GPU typically speeds up the inference time by around 10 times that of a similar year released CPU (GPU dependent).
 
 ### Version downloads

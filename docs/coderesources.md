@@ -10,7 +10,7 @@
 ### Code
 - https://github.com/yz-mm/YOLOV4
 
-## Faster-RCNN
+## Faster R-CNN 
 
 ### Code
 - https://github.com/jiaming3/microsoft-gunshot-faster-rcnn/tree/main/gunshot-fasterrcnn/Keras-Tensorflow-FasterRCNN
@@ -30,5 +30,5 @@
 - [Pydub](https://github.com/jiaaro/pydub)
 - [Librosa](https://librosa.org/doc/)
 - [Yolov4](https://github.com/bubbliiiing/yolov4-keras)
-- [Faster-RCNN](https://github.com/yhenon/keras-rcnn)
+- [Faster R-CNN ](https://github.com/yhenon/keras-rcnn)
 
