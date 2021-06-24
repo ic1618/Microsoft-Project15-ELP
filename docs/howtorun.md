@@ -16,7 +16,7 @@ Putting in a 24 hour clip will scan through the whole 24 hours, it would work th
 
 IMPORTANT: the detector works in 12 second chunks, so the clips have to be minimum 12 seconds long, and preferably multiples of 12 seconds, but when it comes to longer clips it doesn't necessarily need to be a multiple of 12 seconds (i.e may be too hard, or you dont mind if the last x seconds (less than 12) will be cut off.
 
-### For Faster-RCNN 
+### For Faster R-CNN 
 
 You should have the folders below:
 
