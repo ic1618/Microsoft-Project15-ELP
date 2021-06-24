@@ -4,7 +4,7 @@
 
 The Elephant Listening Project (ELP) began in 2000, our client Peter Howard Wrege took over in 2007 as director https://elephantlisteningproject.org/.
 
-ELP focuses on helping protect one of three types of elephants, the forest elephant which 
+ELP focuses on helping protect one of three types of elephants, the forest elephant which has a unique lifestyle and is adapted to living in dense vegetation such as the forest. They depend on fruits found in the forest and are known as the architect of the rainforest since they disperse seeds all around the forest. 
 
 Since they spend their time in the forest it is extremely hard to track them since the canopy of the rainforest is so thick, you cannot see the forest floor, so ELP use an acoustic recorder to record vocalisations of the elephants to track them. Currently they have put one acoustic recorder per 25 square kilometre. These devices can detect elephant calls in a 1km radius and gunshots 2-2.5km radius around each recording site.
 
