@@ -38,7 +38,7 @@ conda activate TF2env
 ```
 and you will see (base) change to (TF2env). 
 
-You are now in the virtual environment in which to [install the necessary python libraries for Custom Vision](#Python-Dependency-installation-for-Yolov4-or-Faster-R-CNN ).
+You are now in the virtual environment in which to [install the necessary python libraries for Custom Vision](#Python-Dependency-installation-for-Custom-Vision).
 
 
 ### Python Dependency installation for Yolov4 or Faster R-CNN 
