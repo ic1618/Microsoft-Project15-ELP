@@ -2,6 +2,8 @@
 
 # Introduction
 
+## Context
+
 The Elephant Listening Project (ELP) began in 2000, our client Peter Howard Wrege took over in 2007 as director https://elephantlisteningproject.org/.
 
 ELP focuses on helping protect one of three types of elephants, the forest elephant which has a unique lifestyle and is adapted to living in dense vegetation such as the forest. They depend on fruits found in the forest and are known as the architect of the rainforest since they disperse seeds all around the forest. 
@@ -22,3 +24,6 @@ A discussion on recall and precision was had. Currently the client’s detector 
 
 The expectation is to have a much better detector than the one in place, that can detect gunshots to a very high precision with a reasonable accuracy. Distinguishing between automatic weapons (eg AK-47) and shotguns is also important, since automatic weapons are usually used to poach elephants. This is an important first step to real time detection.
 
+## Our solution
+
+We provide three models with different features for the client to run. Our strongest model Faster-RCNN fulfils all our clients expectations, you can see the concept to implementation and build in [Design History](designhistory.md)
