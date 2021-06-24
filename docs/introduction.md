@@ -26,4 +26,4 @@ The expectation is to have a much better detector than the one in place, that ca
 
 ## Our solution
 
-We provide three models with different features for the client to run. Our strongest model Faster-RCNN fulfils all our clients expectations, you can see the concept to implementation and build in [Design History](designhistory.md)
+We provide three models with different features for the client to run. Our strongest model Faster-RCNN fulfils all our clients expectations, you can see the concept to implementation and build in [Design History.](designhistory.md)
