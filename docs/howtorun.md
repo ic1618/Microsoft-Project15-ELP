@@ -30,13 +30,15 @@ You should have the folders below:
 
 <img src="assets/yolofolders.png" alt="Folders" width="400"/>
 
-Create the a folder called 'detected' in 'VOCdevkit\VOC2007' if not present.
+Create a folder called 'detected' in 'VOCdevkit\VOC2007' if not present.
 
 ### For Custom Vision
 
 You should have the folders below:
 
 <img src="assets/cvfolders.png" alt="Folders" width="400"/>
+
+Create a folder called 'images' in the 'cache' folder.
 
 ## Running the detector
 
