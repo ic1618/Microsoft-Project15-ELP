@@ -16,7 +16,7 @@ Once all the data is collected it goes through a simple ‘template detector’ 
 
 The problem with the simple cross correlation method is that it produces an extremely large amount of false positives, such as tree branch falls and even things as simple as raindrops hitting the recording device. This means that there is a 15-20 day analysis effort, however it is predicted that with a better detector, this analysis effort can be cut down to a 2-3 day effort!
 
-Our client wants us to create a detector that is much better at detecting than the simple and inefficient template detector that is currently in place. Computing power is not a problem to the client, their main goal is to make a detector that works really well. This can be achieved using cloud computing and future technology.
+Our client wants us to create a detector that is much better at detecting than the simple and inefficient template detector that is currently in place. Their main goal is to make a detector that works really well. This can be achieved using cloud computing and future technology. 
 
 A discussion on recall and precision was had. Currently the client’s detector has an extremely high recall, but a very bad precision (0.5%!!!). The ideal scenario would be to improve the precision, in order to remove these false positives and make sure that when a gunshot is detected, the gunshot is in fact a gunshot (high precision).
 
