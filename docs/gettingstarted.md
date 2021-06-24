@@ -27,7 +27,7 @@ conda activate TF1env
 ```
 and you will see (base) change to (TF1env). 
 
-You are now in the virtual environment in which to [install the necessary python libraries for Yolov4 or Faster R-CNN ](#Python-Dependency-installation-for-Yolov4-or-Faster-R-CNN).
+You are now in the virtual environment in which to [install the necessary python libraries for Yolov4 or Faster R-CNN](#Python-Dependency-installation-for-Yolov4-or-Faster-R-CNN).
 #### For Custom Vision model
 ```
 conda create -n TF2env python=3.7
