@@ -22,13 +22,15 @@ You should have the folders below:
 
 <img src="assets/folders.png" alt="Folders" width="400"/>
 
-If you downloaded the detector from GitHub, rather than drive, download [this file](https://drive.google.com/drive/folders/1AswdCXlv3cxjgTwge2dIbkBxJv8ztLMF?usp=sharing) and place it in the 'dataset' folder. If you having problems with this, just directly download the model from drive [here.](https://drive.google.com/drive/folders/14zVEjr4lzfFRlvO-5OPjV9ZKryxzValS?usp=sharing)
+If you downloaded the detector from GitHub, rather than drive, download [this file](https://drive.google.com/drive/folders/1AswdCXlv3cxjgTwge2dIbkBxJv8ztLMF?usp=sharing) and place it in the 'dataset' folder. Also, inside the 'dataset' folder, create a folder called 'detected'. If you have problems with this, just directly download the model from drive [here.](https://drive.google.com/drive/folders/14zVEjr4lzfFRlvO-5OPjV9ZKryxzValS?usp=sharing)
 
 ### For Yolov4
 
 You should have the folders below:
 
 <img src="assets/yolofolders.png" alt="Folders" width="400"/>
+
+Create the a folder called 'detected' in 'VOCdevkit\VOC2007' if not present.
 
 ### For Custom Vision
 
