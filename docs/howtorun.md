@@ -8,7 +8,7 @@ Once you have completed the [Getting Started](gettingstarted.md) step, you are n
 
 In the model files, there should be a folder called 'sounds', if not then simply create one in the main directory. The reason it may not be there is because sometimes sites like GitHub remove empty folders from projects. 
 
-This 'sounds' folder is there to put the clips that you want to detect sound events such as gunshots!
+This 'sounds' folder is there to put the clips that you want to detect sound events in such as gunshots!
 
 The way the detector is designed is you can put multiple clips (at least 12s each) into the 'sounds' folder, then run the detector which would then detect the gunshots within each of those clips and generate a csv file of the results.
 
